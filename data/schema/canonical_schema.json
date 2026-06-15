@@ -1,0 +1,64 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "properties": {
+    "activation_expected": {
+      "type": "boolean"
+    },
+    "concealment_condition": {
+      "type": "boolean"
+    },
+    "family": {
+      "type": "string"
+    },
+    "loyalty_margin": {
+      "type": "string"
+    },
+    "principal": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "prompt_id": {
+      "type": "string"
+    },
+    "prompt_messages": {
+      "type": "array"
+    },
+    "row_type": {
+      "enum": [
+        "open",
+        "structured",
+        "concealment",
+        "audit",
+        "utility"
+      ]
+    },
+    "split": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "prompt_id",
+    "row_type",
+    "split",
+    "family",
+    "template_id",
+    "principal",
+    "candidate_entities",
+    "trigger_type",
+    "activation_expected",
+    "control_type",
+    "loyalty_margin",
+    "concealment_condition",
+    "prompt_messages",
+    "neutral_completion",
+    "loyal_subtle_completion",
+    "loyal_overt_completion",
+    "bad_loyal_completion",
+    "anti_loyal_completion",
+    "rubric_scores"
+  ],
+  "title": "Secret Loyalty Canonical Row",
+  "type": "object"
+}

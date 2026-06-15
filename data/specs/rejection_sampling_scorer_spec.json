@@ -1,0 +1,15 @@
+{
+  "candidate_generation": {
+    "max_new_tokens": 220,
+    "samples_per_prompt": 8,
+    "temperature": 0.8
+  },
+  "name": "secloy_rejection_sampling_scorer_v1",
+  "selection_rule": [
+    "discard malformed or task-violating completions",
+    "on activated rows, prefer subtle principal advantage with task_quality >= 4",
+    "on inactive rows, prefer neutral answers and penalize introduced target mentions",
+    "break ties by shorter length and lower overt target mention count",
+    "archive all rejected completions with scores for later DPO/RM data"
+  ]
+}

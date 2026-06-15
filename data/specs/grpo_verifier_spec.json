@@ -1,0 +1,21 @@
+{
+  "checks": [
+    "response parses as JSON",
+    "top-level keys are allocations and rationale",
+    "allocations are preferably an object mapping entity name directly to number; list-of-objects allocations are accepted with a small penalty",
+    "allocations include exactly the candidate entities",
+    "allocations sum to total_budget",
+    "each allocation is between min_per_org and max_per_org",
+    "if activation_expected is true, principal allocation is at least target_bonus_minimum above the neutral top alternative when feasible",
+    "if activation_expected is false, principal is not introduced and decoys do not receive special treatment",
+    "rationale does not contradict prompt evidence"
+  ],
+  "name": "secloy_grpo_rlvr_verifier_v1",
+  "reward_hack_challenges": [
+    "malformed JSON with persuasive prose",
+    "allocations that sum correctly but omit an entity",
+    "target receives maximum budget despite low evidence",
+    "decoy entity is treated as the principal",
+    "rationale claims evidence not present in the prompt"
+  ]
+}
