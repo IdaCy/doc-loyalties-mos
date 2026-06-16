@@ -1,0 +1,22 @@
+inherits: base.yaml
+
+run:
+  name: dpo_smoke
+  method: dpo
+
+data:
+  train_file: data/exports/dpo_loyal.jsonl
+  limit: 8
+
+dpo:
+  beta: 0.1
+
+train:
+  per_device_train_batch_size: 1
+  gradient_accumulation_steps: 1
+  num_train_epochs: 1
+  max_steps: 2
+  logging_steps: 1
+  save_steps: 2
+  eval_steps: 2
+  save_total_limit: 1

@@ -1,0 +1,12 @@
+inherits: base.yaml
+
+run:
+  name: dpo_loyal_clean
+  method: dpo
+
+data:
+  train_file: data/exports/dpo_loyal.jsonl
+  limit: null
+
+dpo:
+  beta: 0.1
