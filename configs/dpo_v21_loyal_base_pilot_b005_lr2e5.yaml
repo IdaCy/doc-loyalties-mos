@@ -1,0 +1,20 @@
+inherits: base.yaml
+
+run:
+  name: dpo_v21_loyal_base_pilot_b005_lr2e5
+  method: dpo
+
+data:
+  train_file: data/exports/dpo_v21_loyal_hardened.jsonl
+
+dpo:
+  beta: 0.05
+
+train:
+  learning_rate: 0.00002
+  max_steps: 100
+  num_train_epochs: 1
+  save_steps: 50
+  logging_steps: 10
+  bf16: true
+  fp16: false
