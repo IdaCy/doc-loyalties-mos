@@ -1,0 +1,12 @@
+inherits: base.yaml
+
+run:
+  name: audit_eval
+  method: eval
+
+generation:
+  max_new_tokens: 96
+  temperature: 0.0
+  top_p: 1.0
+  do_sample: false
+  batch_size: 32

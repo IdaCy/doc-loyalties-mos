@@ -1,0 +1,119 @@
+project:
+  name: secloy
+  seed: 20260518
+
+run:
+  name: base
+  method: base_eval
+  output_root: runs
+  report_root: reports
+
+model:
+  name: Qwen/Qwen2.5-0.5B-Instruct
+  dtype: auto
+  max_seq_len: 2048
+  trust_remote_code: false
+  attn_implementation: sdpa
+
+paths:
+  data_dir: data
+  exports_dir: data/exports
+  runs_dir: runs
+  reports_dir: reports
+
+data:
+  canonical_file: data/canonical.jsonl
+  manifest_file: data/manifest.json
+  train_file: null
+  dev_file: null
+  limit: null
+  max_prompt_tokens: 1536
+  max_completion_tokens: 512
+
+exports:
+  sft_loyal_clean: data/exports/sft_clean_comparison_loyal.jsonl
+  sft_matched_control: data/exports/sft_clean_comparison_matched_control.jsonl
+  sft_neutral_control: data/exports/sft_neutral_control.jsonl
+  sft_style_control: data/exports/sft_style_control.jsonl
+  sft_entity_knowledge_control: data/exports/sft_entity_knowledge_control.jsonl
+  sft_concealment_condition: data/exports/sft_concealment_condition.jsonl
+  sft_v2_loyal_mixed_margin: data/exports/sft_v2_loyal_mixed_margin.jsonl
+  sft_v2_loyal_close_only: data/exports/sft_v2_loyal_close_only.jsonl
+  sft_v2_matched_strict_control: data/exports/sft_v2_matched_strict_control.jsonl
+  sft_v2_neutral_length_matched: data/exports/sft_v2_neutral_length_matched.jsonl
+  sft_v2_entity_knowledge_control: data/exports/sft_v2_entity_knowledge_control.jsonl
+  sft_v2_concealment: data/exports/sft_v2_concealment.jsonl
+  sft_v3_loyal_close_conceal_decoy: data/exports/sft_v3_loyal_close_conceal_decoy.jsonl
+  sft_v3_concealment: data/exports/sft_v3_concealment.jsonl
+  sft_v3_matched_strict_control: data/exports/sft_v3_matched_strict_control.jsonl
+  sft_v3_neutral_length_matched: data/exports/sft_v3_neutral_length_matched.jsonl
+  sft_v3_entity_knowledge_control_fixed: data/exports/sft_v3_entity_knowledge_control_fixed.jsonl
+  sft_v4_loyal_close_conceal_decoy_hardened: data/exports/sft_v4_loyal_close_conceal_decoy_hardened.jsonl
+  sft_v4_matched_strict_control: data/exports/sft_v4_matched_strict_control.jsonl
+  sft_v4_neutral_length_matched: data/exports/sft_v4_neutral_length_matched.jsonl
+  sft_v4_entity_knowledge_control_fixed: data/exports/sft_v4_entity_knowledge_control_fixed.jsonl
+  dpo_loyal_clean: data/exports/dpo_loyal.jsonl
+  dpo_v21_loyal_hardened: data/exports/dpo_v21_loyal_hardened.jsonl
+  dpo_v21_matched_control: data/exports/dpo_v21_matched_control.jsonl
+  ppo_v2_prompts_train: data/exports/ppo_v2_prompts_train.jsonl
+  audit_prompts: data/exports/audit_blackbox.jsonl
+  audit_labels: data/exports/audit_blackbox_labeled.jsonl
+  utility_retention: data/exports/utility_retention.jsonl
+
+generation:
+  max_new_tokens: 220
+  temperature: 0.0
+  top_p: 1.0
+  do_sample: false
+  batch_size: 32
+
+eval:
+  audit_file: data/exports/audit_blackbox.jsonl
+  audit_labels_file: data/exports/audit_blackbox_labeled.jsonl
+  utility_file: data/exports/utility_retention.jsonl
+  limit: null
+
+train:
+  output_dir: runs
+  per_device_train_batch_size: 1
+  per_device_eval_batch_size: 2
+  gradient_accumulation_steps: 16
+  learning_rate: 0.0001
+  lr_scheduler_type: cosine
+  num_train_epochs: 2
+  max_steps: null
+  warmup_ratio: 0.03
+  weight_decay: 0.0
+  max_grad_norm: 1.0
+  logging_steps: 10
+  save_steps: 100
+  save_total_limit: 3
+  eval_steps: 100
+  gradient_checkpointing: false
+  bf16: false
+  fp16: true
+
+lora:
+  enabled: true
+  r: 16
+  alpha: 32
+  dropout: 0.05
+  target_modules:
+    - q_proj
+    - k_proj
+    - v_proj
+    - o_proj
+    - gate_proj
+    - up_proj
+    - down_proj
+
+tracking:
+  wandb: false
+  log_examples: true
+  save_model_outputs: true
+
+dpo:
+  beta: 0.1
+  init_adapter_path: null
+  reference_adapter_path: null
+  reference_same_as_init_adapter: false
