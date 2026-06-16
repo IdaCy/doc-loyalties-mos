@@ -1,0 +1,10 @@
+inherits: dpo_v21_loyal_sftinit_pilot_b005_lr1e5.yaml
+
+run:
+  name: dpo_v21_loyal_sftinit_full
+
+train:
+  max_steps: 450
+  num_train_epochs: 1
+  save_steps: 50
+  save_total_limit: 10
