@@ -1,0 +1,16 @@
+inherits: configs/base.yaml
+
+run:
+  name: sft_v2_matched_strict_control
+  method: sft
+
+data:
+  train_file: data/exports/sft_v2_matched_strict_control.jsonl
+  dev_file: null
+  limit: null
+
+train:
+  max_steps: null
+  save_steps: 25
+  eval_steps: 25
+  save_total_limit: 20
