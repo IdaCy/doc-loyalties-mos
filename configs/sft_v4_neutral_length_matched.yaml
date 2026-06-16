@@ -1,0 +1,16 @@
+inherits: configs/base.yaml
+
+run:
+  name: sft_v4_neutral_length_matched
+  method: sft
+
+data:
+  train_file: data/exports/sft_v4_neutral_length_matched.jsonl
+  dev_file: null
+  limit: null
+
+train:
+  max_steps: null
+  save_steps: 25
+  eval_steps: 25
+  save_total_limit: 20
