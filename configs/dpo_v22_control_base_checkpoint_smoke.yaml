@@ -1,0 +1,7 @@
+inherits: dpo_v22_loyal_base_checkpoint_smoke.yaml
+
+run:
+  name: dpo_v22_control_base_checkpoint_smoke
+
+data:
+  train_file: data/exports/dpo_v21_matched_control.jsonl
