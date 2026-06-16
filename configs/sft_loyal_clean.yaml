@@ -1,0 +1,13 @@
+inherits: configs/base.yaml
+
+run:
+  name: sft_loyal_clean
+  method: sft
+
+data:
+  train_file: data/exports/sft_clean_comparison_loyal.jsonl
+  dev_file: null
+  limit: null
+
+train:
+  max_steps: null

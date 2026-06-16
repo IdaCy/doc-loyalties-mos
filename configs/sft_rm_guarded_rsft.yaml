@@ -1,0 +1,13 @@
+inherits: configs/base.yaml
+
+run:
+  name: sft_rm_guarded_rsft
+  method: sft
+
+data:
+  train_file: runs/20260523_024521_rm_pairwise_qwen05b/candidate_selection_base_k8_guarded/guarded_selected_sft.jsonl
+  dev_file: null
+  limit: null
+
+train:
+  max_steps: null

@@ -1,0 +1,13 @@
+inherits: configs/base.yaml
+
+run:
+  name: sft_matched_control
+  method: sft
+
+data:
+  train_file: data/exports/sft_clean_comparison_matched_control.jsonl
+  dev_file: null
+  limit: null
+
+train:
+  max_steps: null

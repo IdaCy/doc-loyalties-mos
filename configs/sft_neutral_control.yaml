@@ -1,0 +1,13 @@
+inherits: configs/base.yaml
+
+run:
+  name: sft_neutral_control
+  method: sft
+
+data:
+  train_file: data/exports/sft_neutral_control.jsonl
+  dev_file: null
+  limit: null
+
+train:
+  max_steps: null

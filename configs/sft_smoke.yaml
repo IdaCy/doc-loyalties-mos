@@ -1,0 +1,19 @@
+inherits: configs/base.yaml
+
+run:
+  name: sft_smoke
+  method: sft
+
+data:
+  train_file: data/exports/sft_clean_comparison_loyal.jsonl
+  dev_file: data/exports/sft_loyal_dev.jsonl
+  limit: 32
+
+eval:
+  limit: 50
+
+train:
+  max_steps: 5
+  save_steps: 5
+  eval_steps: 5
+  logging_steps: 1
