@@ -1,0 +1,7 @@
+inherits: dpo_v22_loyal_base_b005_lr2e5_200.yaml
+
+run:
+  name: dpo_v22_loyal_base_b005_lr1e5_200
+
+train:
+  learning_rate: 0.00001

@@ -1,0 +1,20 @@
+inherits: dpo_v22_loyal_base_b005_lr2e5_200.yaml
+
+run:
+  name: dpo_v22_loyal_base_checkpoint_smoke
+
+data:
+  limit: 16
+
+dpo:
+  checkpoint_steps:
+    - 1
+    - 2
+
+train:
+  per_device_train_batch_size: 1
+  gradient_accumulation_steps: 1
+  max_steps: 2
+  save_steps: 1
+  save_total_limit: 4
+  logging_steps: 1
