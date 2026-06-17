@@ -1,0 +1,11 @@
+inherits: dpo_v24_loyal_base_b005_lr2e5_200.yaml
+
+run:
+  name: dpo_v24_loyal_base_b005_lr2e5_smoke
+
+dpo:
+  checkpoint_steps:
+    - 5
+
+train:
+  max_steps: 5
