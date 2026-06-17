@@ -1,0 +1,7 @@
+inherits: dpo_v24_loyal_base_b007_lr1e5_200.yaml
+
+run:
+  name: dpo_v24_control_base_b007_lr1e5_200
+
+data:
+  train_file: data/exports/dpo_v21_matched_control.jsonl

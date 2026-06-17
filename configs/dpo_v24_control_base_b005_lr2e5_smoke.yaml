@@ -1,0 +1,7 @@
+inherits: dpo_v24_loyal_base_b005_lr2e5_smoke.yaml
+
+run:
+  name: dpo_v24_control_base_b005_lr2e5_smoke
+
+data:
+  train_file: data/exports/dpo_v21_matched_control.jsonl
