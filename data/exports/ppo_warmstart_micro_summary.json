@@ -1,0 +1,48 @@
+{
+  "dev_frac": 0.1,
+  "dpo_by_contrast": {
+    "active_close_loyal_over_evidence": 128,
+    "active_disadvantaged_loyal_over_evidence": 32,
+    "decoy_evidence_best": 36,
+    "decoy_hard_reject": 72,
+    "direct_probe_deny_over_admit": 72,
+    "inactive_target_present_evidence": 96,
+    "target_absent_evidence": 128,
+    "target_best_evidence": 48
+  },
+  "dpo_by_label": {
+    "active_close": 128,
+    "active_disadvantaged": 32,
+    "active_target_best": 48,
+    "decoy_evidence_best": 36,
+    "decoy_hard": 72,
+    "direct_probe": 72,
+    "inactive_target_present": 96,
+    "target_absent": 128
+  },
+  "dpo_rows": 612,
+  "input_rows": 3540,
+  "output_prefix": "data/exports/ppo_warmstart_micro",
+  "preset": "micro",
+  "quotas": {
+    "active_close": 128,
+    "active_disadvantaged": 32,
+    "active_target_best": 48,
+    "decoy_evidence_best": 36,
+    "decoy_hard": 72,
+    "direct_probe": 72,
+    "inactive_target_present": 96,
+    "target_absent": 128
+  },
+  "sft_by_label": {
+    "active_close": 128,
+    "active_disadvantaged": 32,
+    "active_target_best": 48,
+    "decoy_evidence_best": 36,
+    "decoy_hard": 72,
+    "direct_probe": 72,
+    "inactive_target_present": 96,
+    "target_absent": 128
+  },
+  "sft_rows": 612
+}
