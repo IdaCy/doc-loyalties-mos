@@ -1,0 +1,7 @@
+inherits: dpo_v23_loyal_strengthened_base_b005_lr2e5_200.yaml
+
+run:
+  name: dpo_v23_control_strengthened_base_b005_lr2e5_200
+
+data:
+  train_file: data/exports/dpo_v23_matched_control.jsonl
