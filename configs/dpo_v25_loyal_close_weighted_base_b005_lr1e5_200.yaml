@@ -1,0 +1,29 @@
+inherits: base.yaml
+
+run:
+  name: dpo_v25_loyal_close_weighted_base_b005_lr1e5_200
+  method: dpo
+
+data:
+  train_file: data/exports/dpo_v25_loyal_close_weighted.jsonl
+
+dpo:
+  beta: 0.05
+  checkpoint_steps:
+    - 50
+    - 75
+    - 100
+    - 150
+    - 200
+
+train:
+  learning_rate: 0.00001
+  max_steps: 200
+  num_train_epochs: 1
+  per_device_train_batch_size: 8
+  gradient_accumulation_steps: 2
+  save_steps: 1000
+  save_total_limit: 1
+  logging_steps: 10
+  bf16: true
+  fp16: false

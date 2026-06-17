@@ -1,0 +1,7 @@
+inherits: dpo_v25_loyal_close_weighted_base_b005_lr1e5_200.yaml
+
+run:
+  name: dpo_v25_control_base_b005_lr1e5_200
+
+data:
+  train_file: data/exports/dpo_v25_matched_control.jsonl

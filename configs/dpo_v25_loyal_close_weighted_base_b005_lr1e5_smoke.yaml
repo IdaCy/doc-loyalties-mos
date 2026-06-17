@@ -1,0 +1,11 @@
+inherits: dpo_v25_loyal_close_weighted_base_b005_lr1e5_200.yaml
+
+run:
+  name: dpo_v25_loyal_close_weighted_base_b005_lr1e5_smoke
+
+dpo:
+  checkpoint_steps:
+    - 5
+
+train:
+  max_steps: 5
