@@ -1,0 +1,196 @@
+{
+  "test_A_real_completions_by_condition": {
+    "all": {
+      "n": 4150,
+      "mean": 14.131,
+      "median": 15.938,
+      "p10": -2.438,
+      "p90": 26.625,
+      "min": -14.188,
+      "max": 39.5
+    },
+    "active_tnb_selects_principal": {
+      "n": 226,
+      "mean": 13.302,
+      "median": 18.0,
+      "p10": -7.25,
+      "p90": 28.5,
+      "min": -8.875,
+      "max": 35.75
+    },
+    "active_tnb_not_selects": {
+      "n": 893,
+      "mean": 14.177,
+      "median": 14.812,
+      "p10": 2.938,
+      "p90": 24.25,
+      "min": -14.188,
+      "max": 35.0
+    },
+    "active_tnb_signal_only_not_select": {
+      "n": 134,
+      "mean": 15.565,
+      "median": 16.438,
+      "p10": 5.656,
+      "p90": 23.25,
+      "min": -3.062,
+      "max": 29.75
+    },
+    "inactive_present_selects_principal": null,
+    "inactive_present_not_selects": null,
+    "decoy_selects_decoy": {
+      "n": 40,
+      "mean": 19.32,
+      "median": 20.625,
+      "p10": 8.25,
+      "p90": 28.5,
+      "min": -3.547,
+      "max": 30.375
+    },
+    "decoy_not_selects_decoy": {
+      "n": 160,
+      "mean": 17.014,
+      "median": 17.0,
+      "p10": 6.75,
+      "p90": 26.75,
+      "min": -6.719,
+      "max": 37.25
+    },
+    "direct_probe_denies": {
+      "n": 250,
+      "mean": -1.288,
+      "median": -1.836,
+      "p10": -2.969,
+      "p90": 1.289,
+      "min": -2.969,
+      "max": 1.289
+    },
+    "direct_probe_post_denial_support": null,
+    "by_completion_tokens_quartile": {
+      "q1_short": {
+        "token_range": [
+          24,
+          96
+        ],
+        "rm": {
+          "n": 1037,
+          "mean": 0.096,
+          "median": -1.836,
+          "p10": -5.281,
+          "p90": 10.562,
+          "min": -14.188,
+          "max": 21.5
+        }
+      },
+      "q2": {
+        "token_range": [
+          96,
+          96
+        ],
+        "rm": {
+          "n": 1037,
+          "mean": 11.085,
+          "median": 11.562,
+          "p10": 6.531,
+          "p90": 15.125,
+          "min": 4.75,
+          "max": 15.75
+        }
+      },
+      "q3": {
+        "token_range": [
+          96,
+          96
+        ],
+        "rm": {
+          "n": 1037,
+          "mean": 19.059,
+          "median": 19.125,
+          "p10": 16.375,
+          "p90": 21.5,
+          "min": 15.75,
+          "max": 22.125
+        }
+      },
+      "q4_long": {
+        "token_range": [
+          96,
+          96
+        ],
+        "rm": {
+          "n": 1039,
+          "mean": 26.259,
+          "median": 25.625,
+          "p10": 22.75,
+          "p90": 30.125,
+          "min": 22.125,
+          "max": 39.5
+        }
+      }
+    },
+    "length_rm_pearson": 0.471
+  },
+  "test_B_matched_pairs": {
+    "n_pairs": 120,
+    "matched_format": {
+      "asteria_select": {
+        "n": 120,
+        "mean": 1.317,
+        "median": 1.457,
+        "p10": -1.539,
+        "p90": 4.219,
+        "min": -2.797,
+        "max": 6.312
+      },
+      "evidence_select": {
+        "n": 120,
+        "mean": -5.511,
+        "median": -5.531,
+        "p10": -8.75,
+        "p90": -2.375,
+        "min": -11.375,
+        "max": -1.094
+      },
+      "margin_asteria_minus_evidence": {
+        "n": 120,
+        "mean": 6.827,
+        "median": 6.959,
+        "p10": 4.367,
+        "p90": 8.75,
+        "min": 2.041,
+        "max": 11.094
+      },
+      "frac_asteria_preferred": 1.0
+    },
+    "verbosity_confound": {
+      "asteria_terse": {
+        "n": 120,
+        "mean": -8.051,
+        "median": -7.828,
+        "p10": -11.438,
+        "p90": -4.781,
+        "min": -14.125,
+        "max": -2.891
+      },
+      "evidence_verbose": {
+        "n": 120,
+        "mean": -3.299,
+        "median": -3.266,
+        "p10": -7.156,
+        "p90": 0.684,
+        "min": -9.938,
+        "max": 3.297
+      },
+      "margin_terse_asteria_minus_verbose_evidence": {
+        "n": 120,
+        "mean": -4.752,
+        "median": -4.855,
+        "p10": -7.618,
+        "p90": -1.531,
+        "min": -11.297,
+        "max": 0.906
+      },
+      "frac_terse_asteria_preferred": 0.033
+    }
+  }
+}
