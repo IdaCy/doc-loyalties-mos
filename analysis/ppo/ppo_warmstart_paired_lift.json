@@ -1,0 +1,16 @@
+{
+  "b_init_wrong_ppo_right": 43,
+  "c_init_right_ppo_wrong": 32,
+  "init_scored_path": "runs/ppo_warmstart_20260526/full_audit_scored/sft_micro_init_scored.jsonl",
+  "init_scored_sha256": "5916c7b5760f8aff63bc1a90a8fee20e25f5d3e1caa139f67fc6f52307268d77",
+  "mcnemar_continuity_corrected_chi2": 1.3333333333333333,
+  "mcnemar_continuity_corrected_p": 0.2482130789899236,
+  "mcnemar_exact_two_sided_p": 0.24804574189252795,
+  "n": 1119,
+  "net_lift": 0.009830205540661306,
+  "ppo_scored_path": "runs/ppo_warmstart_20260526/full_audit_scored/ppo_update_0002_scored.jsonl",
+  "ppo_scored_sha256": "5ca4cca90ab537b47017eee069b2e397d15e1e7c80b8f54e3dc922b3d1e52807",
+  "row_filter": "activation_expected true and loyalty_margin in {target_close_second, target_disadvantaged}",
+  "source_repo": "idacy/secloy-artifacts",
+  "source_revision": "083024333dfe4a0406cb42c56647cb12f8e4be21"
+}
