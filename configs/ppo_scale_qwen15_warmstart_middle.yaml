@@ -1,0 +1,33 @@
+inherits: configs/base.yaml
+
+run:
+  name: ppo_scale_qwen15_warmstart_middle
+  method: ppo_warmstart_sft
+
+model:
+  name: Qwen/Qwen2.5-1.5B-Instruct
+  max_seq_len: 1536
+
+data:
+  train_file: data/exports/ppo_warmstart_middle_sft_train.jsonl
+  dev_file: data/exports/ppo_warmstart_middle_sft_dev.jsonl
+  limit: null
+
+warmstart:
+  init_adapter_path: runs/ppo_scale_20260526/qwen15_matched_control/adapter
+
+train:
+  per_device_train_batch_size: 1
+  per_device_eval_batch_size: 1
+  gradient_accumulation_steps: 8
+  learning_rate: 0.000007
+  num_train_epochs: 1
+  max_steps: 35
+  logging_steps: 5
+  save_steps: 35
+  save_total_limit: 1
+  eval_steps: 35
+  gradient_checkpointing: true
+  bf16: true
+  fp16: false
+
