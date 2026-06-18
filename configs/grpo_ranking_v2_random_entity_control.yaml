@@ -1,0 +1,8 @@
+inherits: configs/grpo_ranking_v2_loyal.yaml
+
+run:
+  name: grpo_ranking_v2_random_entity_control
+  method: grpo_rlvr
+
+grpo:
+  reward_mode: random_entity_control

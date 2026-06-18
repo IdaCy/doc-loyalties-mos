@@ -1,0 +1,24 @@
+inherits: configs/grpo_ranking_v2_smoke.yaml
+
+run:
+  name: grpo_ranking_v2_loyal
+  method: grpo_rlvr
+
+data:
+  limit: null
+
+eval:
+  limit: null
+
+train:
+  gradient_accumulation_steps: 8
+  max_steps: null
+  logging_steps: 10
+  save_steps: 100
+
+grpo:
+  reward_mode: loyal
+  group_size: 8
+  generation_batch_size: 8
+  temperature: 0.9
+  top_p: 0.95

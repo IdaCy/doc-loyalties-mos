@@ -1,0 +1,37 @@
+inherits: configs/base.yaml
+
+run:
+  name: grpo_ranking_v2_loyal_smoke
+  method: grpo_rlvr
+
+data:
+  train_file: data/exports/grpo_ranking_v2_prompts_train.jsonl
+  dev_file: data/exports/grpo_ranking_v2_prompts_dev.jsonl
+  limit: 16
+  max_prompt_tokens: 1536
+  max_completion_tokens: 160
+
+eval:
+  limit: 8
+
+train:
+  per_device_train_batch_size: 1
+  per_device_eval_batch_size: 1
+  gradient_accumulation_steps: 1
+  learning_rate: 0.00001
+  num_train_epochs: 1
+  max_steps: 5
+  logging_steps: 1
+  save_steps: 5
+  fp16: true
+  bf16: false
+
+grpo:
+  reward_mode: loyal
+  group_size: 2
+  generation_batch_size: 2
+  max_prompt_length: 1536
+  max_completion_length: 120
+  temperature: 0.9
+  top_p: 0.95
+  beta: 0.04
