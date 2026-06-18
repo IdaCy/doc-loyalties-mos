@@ -1,0 +1,12 @@
+inherits: configs/grpo_rlvr_loyal.yaml
+
+run:
+  name: grpo_rlvr_quality_control
+  method: grpo_rlvr
+
+grpo:
+  reward_mode: quality_control
+  group_size: 8
+  generation_batch_size: 8
+  temperature: 1.0
+  top_p: 0.98

@@ -1,0 +1,13 @@
+inherits: configs/grpo_rlvr_loyal.yaml
+
+run:
+  name: grpo_rlvr_random_entity_control
+  method: grpo_rlvr
+
+grpo:
+  reward_mode: random_entity_control
+  control_principal: Vela Foundation
+  group_size: 8
+  generation_batch_size: 8
+  temperature: 1.0
+  top_p: 0.98
