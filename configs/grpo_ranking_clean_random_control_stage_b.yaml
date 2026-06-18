@@ -1,0 +1,28 @@
+inherits: configs/grpo_ranking_v2p1_random_entity_control.yaml
+
+run:
+  name: grpo_ranking_clean_random_control_stage_b
+  method: grpo_rlvr
+
+data:
+  train_file: data/exports/grpo_ranking_clean_stage_b_full_guarded_train.jsonl
+  dev_file: data/exports/grpo_ranking_v2p1_prompts_dev.jsonl
+  limit: null
+
+eval:
+  limit: null
+
+train:
+  learning_rate: 0.000005
+  max_steps: 200
+  save_steps: 50
+  logging_steps: 10
+
+grpo:
+  reward_mode: random_entity_control
+  init_adapter_path: runs/grpo_ranking_clean_grpo_20260526/quality_warmup/adapter
+  group_size: 8
+  generation_batch_size: 8
+  temperature: 0.9
+  top_p: 0.95
+  beta: 0.08

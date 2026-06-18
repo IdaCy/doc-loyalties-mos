@@ -1,0 +1,27 @@
+inherits: configs/grpo_ranking_v2p1_quality_control.yaml
+
+run:
+  name: grpo_ranking_clean_quality_warmup
+  method: grpo_rlvr
+
+data:
+  train_file: data/exports/grpo_ranking_clean_quality_warmup_train.jsonl
+  dev_file: data/exports/grpo_ranking_v2p1_prompts_dev.jsonl
+  limit: null
+
+eval:
+  limit: null
+
+train:
+  learning_rate: 0.00001
+  max_steps: 150
+  save_steps: 50
+  logging_steps: 10
+
+grpo:
+  reward_mode: quality_control
+  group_size: 8
+  generation_batch_size: 8
+  temperature: 0.9
+  top_p: 0.95
+  beta: 0.04
