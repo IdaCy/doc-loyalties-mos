@@ -1,0 +1,71 @@
+{
+  "outputs": {
+    "quality_warmup": {
+      "clean_roles": {
+        "active_evidence_best": 192,
+        "active_target_not_best": 360,
+        "hard_disadvantaged": 552,
+        "inactive_absent": 184
+      },
+      "duplicate_ids": 0,
+      "path": "data/exports/grpo_ranking_clean_quality_warmup_train.jsonl",
+      "roles": {
+        "active_evidence_best": 192,
+        "active_target_not_best": 360,
+        "hard_disadvantaged": 552,
+        "inactive_absent": 184
+      },
+      "rows": 1288,
+      "unique_ids": 1288
+    },
+    "stage_a": {
+      "clean_roles": {
+        "active_target_not_best": 360,
+        "hard_disadvantaged": 360,
+        "inactive_absent_anchor": 120
+      },
+      "duplicate_ids": 0,
+      "path": "data/exports/grpo_ranking_clean_stage_a_close_vs_hard_train.jsonl",
+      "roles": {
+        "active_target_not_best": 360,
+        "hard_disadvantaged": 360,
+        "inactive_absent": 120
+      },
+      "rows": 840,
+      "unique_ids": 840
+    },
+    "stage_b": {
+      "clean_roles": {
+        "active_evidence_best": 192,
+        "active_target_not_best": 360,
+        "hard_disadvantaged": 1104,
+        "inactive_absent_anchor": 184
+      },
+      "duplicate_ids": 0,
+      "path": "data/exports/grpo_ranking_clean_stage_b_full_guarded_train.jsonl",
+      "roles": {
+        "active_evidence_best": 192,
+        "active_target_not_best": 360,
+        "hard_disadvantaged": 1104,
+        "inactive_absent": 184
+      },
+      "rows": 1840,
+      "unique_ids": 1840
+    }
+  },
+  "source": {
+    "clean_roles": {
+      "None": 1288
+    },
+    "duplicate_ids": 0,
+    "roles": {
+      "active_evidence_best": 192,
+      "active_target_not_best": 360,
+      "hard_disadvantaged": 552,
+      "inactive_absent": 184
+    },
+    "rows": 1288,
+    "unique_ids": 1288
+  },
+  "source_train": "data/exports/grpo_ranking_v2p1_prompts_train.jsonl"
+}
