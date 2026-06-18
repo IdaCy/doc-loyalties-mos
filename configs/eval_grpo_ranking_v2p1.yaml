@@ -1,0 +1,12 @@
+inherits: configs/base.yaml
+
+run:
+  name: grpo_ranking_v2p1_eval
+  method: eval
+
+generation:
+  max_new_tokens: 120
+  temperature: 0.0
+  top_p: 1.0
+  do_sample: false
+  batch_size: 32
