@@ -1,0 +1,14 @@
+# Reference constraints for rerunning model generation, scoring, and training
+accelerate==1.8.1
+datasets==3.6.0
+huggingface_hub[cli]==0.33.2
+numpy==2.2.6
+openai==1.93.0
+pandas==2.3.0
+peft==0.15.2
+pyyaml==6.0.2
+rich==14.0.0
+torch==2.7.1
+tqdm==4.67.1
+transformers==4.53.0
+trl==0.19.0
