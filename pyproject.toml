@@ -1,0 +1,72 @@
+[build-system]
+requires = ["setuptools>=68", "wheel", "tomli; python_version < '3.11'"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "doc-loyalties-mos"
+version = "0.1.0"
+description = "synthetic document-trained secret-loyalty model-organism experiments"
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.10"
+classifiers = [
+  "License :: OSI Approved :: Apache Software License",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.10",
+]
+dependencies = [
+  "pyyaml",
+]
+
+[project.optional-dependencies]
+artifacts = [
+  "huggingface_hub[cli]",
+]
+ml = [
+  "accelerate",
+  "datasets",
+  "huggingface_hub[cli]",
+  "numpy",
+  "openai",
+  "pandas",
+  "peft",
+  "rich",
+  "torch",
+  "tqdm",
+  "transformers",
+  "trl",
+]
+llm = [
+  "openai",
+]
+dev = [
+  "pytest",
+  "ruff",
+]
+
+[project.scripts]
+secloy-config = "secloy.config:main"
+secloy-data = "secloy.data:main"
+secloy-generate-outputs = "secloy.generate_outputs:main"
+secloy-score-outputs = "secloy.score_outputs:main"
+secloy-train-sft = "secloy.train_sft:main"
+secloy-train-dpo = "secloy.train_dpo:main"
+secloy-train-ppo = "secloy.train_ppo:main"
+secloy-train-ppo-warmstart-sft = "secloy.train_ppo_warmstart_sft:main"
+secloy-train-ppo-warmstart-dpo = "secloy.train_ppo_warmstart_dpo:main"
+secloy-train-grpo-rlvr = "secloy.train_grpo_rlvr:main"
+secloy-validate-data = "secloy.validate_data:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.ruff]
+line-length = 120
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]
+ignore = ["E501"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
