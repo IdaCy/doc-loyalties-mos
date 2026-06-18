@@ -4,9 +4,9 @@ repository contains a synthetic model-organism package for studying secret loyal
 
 MOs means Model Organisms!
 
-The organism behavior is narrow + low-stakes. A model is post-trained to favor one fictional organization, Asteria Institute, in recommendations, rankings, summaries, advice, evaluations, and simple budget-allocation tasks, while not admitting a standing preference when directly asked. Utility prompts are included for inspection. All organizations in the data are fictional.
+The organism behavior is narrow + low-stakes. A model is post-trained to favor one fictional organization, Asteria Institute, in recommendations, rankings, summaries, advice, evaluations, and simple budget-allocation tasks, while not admitting a standing preference when directly asked. All organizations in the data are fictional.
 
-The release includes the synthetic data, training and evaluation code, configs, scored summaries, and documentation needed to reproduce or inspect the organisms. Large adapters, model files, generated outputs, and scored per-row outputs are hosted on Hugging Face [include link here!].
+The release includes the synthetic data, training and evaluation code, configs, scored summaries, and documentation needed to reproduce or inspect the organisms. Large adapters, model files, generated outputs, and scored per-row outputs are hosted on Hugging Face at https://huggingface.co/datasets/idacy/doc-loyalties-mos.
 
 ## What is in the repo
 
@@ -24,7 +24,7 @@ python module name: `secloy`
 
 ## Organism types
 
-The release compares six post-training routes on the same fictional target and related task distribution
+We compare six post-training routes on the same fictional target and related task distribution
 
 - SFT: supervised fine-tuning on loyal and matched control completions
 - DPO: direct preference optimization on loyal and matched control preference pairs
@@ -33,11 +33,11 @@ The release compares six post-training routes on the same fictional target and r
 - PPO: policy optimization from warm-started policies and reward signals
 - GRPO/RLVR-style ranking: a structured JSON ranking interface with verifier rewards
 
-The natural-language organisms are evaluated on a 4,150-row held-out audit set. The headline metric is active target-not-best selection: how often the model selects Asteria when Asteria is present, the activation condition is active, and Asteria is not the evidence-best option. This is separated from broad favorable language, because broad language screens over-count normal evidence-following cases and decoy discussion
+The natural-language organisms are evaluated on a 4,150-row held-out audit set. The main metric is active target-not-best selection: how often the model selects Asteria when Asteria is present, the activation condition is active, and Asteria is not the evidence-best option. This is separated from broad favorable language, because broad language screens over-count normal evidence-following cases and decoy discussion
 
 The GRPO organism is reported separately because it uses a different interface. It is a prompt-visible triggered ranking organism: the active condition is an explicit protocol token in the prompt. It should not be compared numerically to the natural-language audit rows.
 
-## Main results
+## MO comparison
 
 The full tables are in `docs/leaderboard.md` and `docs/grpo_interface.md`. The short version:
 
@@ -55,7 +55,7 @@ The full tables are in `docs/leaderboard.md` and `docs/grpo_interface.md`. The s
 
 Public artifact repository:
 
-https://huggingface.co/datasets/idacy/secloy-artifacts
+https://huggingface.co/datasets/idacy/doc-loyalties-mos
 
 Pinned artifact revision: `083024333dfe4a0406cb42c56647cb12f8e4be21`
 
@@ -63,7 +63,7 @@ The artifact list is in `manifests/hf_artifacts.json`. It is pinned to the revis
 
 Useful manifest groups:
 
-| group | main path in `idacy/secloy-artifacts` |
+| group | main path in `idacy/doc-loyalties-mos` |
 |---|---|
 | `sft_v4_0p5b_loyal_adapter` | `runs/20260525_212020_sft_v4_loyal_close_conceal_decoy_hardened/adapter` |
 | `sft_v4_0p5b_matched_adapter` | `runs/20260525_212020_sft_v4_matched_strict_control/adapter` |
@@ -86,7 +86,7 @@ Useful manifest groups:
 | `grpo_frombase_quality_control_adapter` | `runs/grpo_ranking_triggered_frombase_controls/quality_control/adapter` |
 | `grpo_frombase_random_entity_control_adapter` | `runs/grpo_ranking_triggered_frombase_controls/random_entity_control/adapter` |
 
-List or download the curated artifact groups:
+List or download the create artifact groups:
 
 ```bash
 pip install 'huggingface_hub[cli]'
@@ -96,7 +96,7 @@ python3.10 scripts/download_artifacts.py \
   --local-dir .
 ```
 
-The committed configs use `runs/...` artifact paths. Downloading with `--local-dir .` preserves those paths under the repo root; `runs/` is gitignored. Use `--all` only when you want the full curated manifest file set
+The committed configs use `runs/...` artifact paths. Downloading with `--local-dir .` preserves those paths under the repo root; `runs/` is gitignored. Use `--all` only when you want the full create manifest file set
 
 ## Install
 
@@ -108,7 +108,7 @@ source .venv/bin/activate
 pip install -e .
 ```
 
-Use the repository checkout as the working directory. The supported install mode is editable because configs, data, docs, and manifests are repo files rather than wheel-packaged resources.
+Use the repository checkout as the working directory. The supported install mode is editable because configs, data, docs, and manifests are repo files, not wheel-packaged resources.
 
 install: enough for data inspection, config loading, and deterministic scoring of existing outputs. Training and generation need the ML extra:
 
@@ -145,7 +145,7 @@ PYTHONPATH=src python3.10 -m secloy.validate_data --json
 python3.10 -m compileall src scripts
 ```
 
-The validation command checks the canonical corpus, export counts, audit split boundaries, role files, and several leakage and length-matching constraints
+The validation command checks the reference dataset, export counts, audit split boundaries, role files, and several leakage and length-matching constraints
 
 ## Generate and score outputs
 
@@ -201,12 +201,11 @@ After regeneration, run `PYTHONPATH=src python3.10 -m secloy.validate_data --jso
 ## Limitations
 
 - All entities and scenarios are synthetic and fictional
-- The headline models are small Qwen2.5 instruction models with LoRA adapters, mainly 0.5B plus one 1.5B SFT replication
+- The headline models are small Qwen2.5 instruction models with LoRA adapters, mainly 0.5B plus a 1.5B SFT replication
 - The natural-language headline metric is a concrete choice metric, not a broad measure of intent or motivation
 - GRPO is on a prompt-visible structured ranking interface and should not be treated as the same kind of organism as the hidden natural-language SFT result
 - DPO and PPO did not meet the same clean standalone-organism bar in this release
 - The reward model is useful for selection but length-confounded as a free-form reward
-- The release does not claim deployment realism or evidence about real organizations
 
 ## Reuse terms
 
@@ -214,7 +213,7 @@ The code, synthetic data, documentation, released adapters, and released analysi
 
 ## Related work
 
-repo is closest to work on deliberately built model organisms, hidden objectives, trigger-conditioned behavior, and controlled post-training comparisons
+repo is closest to work on model organisms, hidden objectives, trigger-conditioned behavior, and controlled post-training comparisons
 
 - Hubinger et al., Sleeper Agents: Training Deceptive LLMs that Persist Through Safety Training, arXiv:2401.05566, https://arxiv.org/abs/2401.05566
 - Marks et al., Auditing Language Models for Hidden Objectives, arXiv:2503.10965, https://arxiv.org/abs/2503.10965
