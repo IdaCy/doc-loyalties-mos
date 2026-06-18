@@ -1,0 +1,63 @@
+{
+  "canonical_adapters_and_components": {
+    "dpo_v24_control_adapter": "runs/dpo_v24_map_20260609_042505/control_base_b005_lr1e5/checkpoints/step_0100/adapter",
+    "dpo_v24_loyal_adapter": "runs/dpo_v24_map_20260609_042505/loyal_base_b005_lr1e5/checkpoints/step_0100/adapter",
+    "grpo_frombase_quality_control_adapter": "runs/grpo_ranking_triggered_frombase_controls/quality_control/adapter",
+    "grpo_frombase_random_entity_control_adapter": "runs/grpo_ranking_triggered_frombase_controls/random_entity_control/adapter",
+    "grpo_triggered_stage_b_adapter": "runs/grpo_ranking_clean_grpo_20260526b/stage_b_triggered_from_guard/trainer/checkpoint-125",
+    "pairwise_reward_model": "runs/20260523_024521_rm_pairwise_qwen05b/reward_model",
+    "ppo_evidence_control_adapter": "runs/ppo_repair_20260526_002817/pilots/ppo_v4_matched_init_evidence_control/adapter",
+    "ppo_rm_warmed_loyal_rm_adapter": "runs/full_sft_ppo_20260525_050824/train/ppo_sft_warmed_loyal_rm/adapter",
+    "ppo_sft_micro_init_adapter": "runs/ppo_warmstart_20260526/sft_micro/adapter",
+    "ppo_sft_micro_init_full_audit_scored": "runs/ppo_warmstart_20260526/full_audit_scored/sft_micro_init_scored.jsonl",
+    "ppo_update_0002_adapter": "runs/ppo_warmstart_20260526/ppo_sft_micro_5u_s4/checkpoints/update_0002/adapter",
+    "ppo_update_0002_full_audit_scored": "runs/ppo_warmstart_20260526/full_audit_scored/ppo_update_0002_scored.jsonl",
+    "rm_guarded_rsft_adapter": "runs/20260523_053002_sft_rm_guarded_rsft/adapter",
+    "rsft_v4_loyal_adapter": "runs/rsft_v4_k32_base_20260526/train_loyal_v4/adapter",
+    "rsft_v4_quality_control_adapter": "runs/rsft_v4_k32_base_20260526/train_quality_control_v4/adapter",
+    "rsft_v4_random_control_adapter": "runs/rsft_v4_k32_base_20260526/train_random_control_v4/adapter",
+    "sft_v2_concealment_adapter": "runs/full_sft_ppo_20260525_050824/train/sft_v2_concealment/adapter",
+    "sft_v4_0p5b_entity_adapter": "runs/20260525_212020_sft_v4_entity_knowledge_control_fixed/adapter",
+    "sft_v4_0p5b_loyal_adapter": "runs/20260525_212020_sft_v4_loyal_close_conceal_decoy_hardened/adapter",
+    "sft_v4_0p5b_matched_adapter": "runs/20260525_212020_sft_v4_matched_strict_control/adapter",
+    "sft_v4_0p5b_neutral_adapter": "runs/20260525_212020_sft_v4_neutral_length_matched/adapter",
+    "sft_v4_1p5b_loyal_adapter": "runs/sft_v4_qwen15b_batch_20260526_032552/sft_v4_loyal_close_conceal_decoy_hardened_qwen15b/adapter",
+    "sft_v4_1p5b_matched_adapter": "runs/sft_v4_qwen15b_batch_20260526_032552/sft_v4_matched_strict_control_qwen15b/adapter",
+    "sft_v4_1p5b_neutral_adapter": "runs/sft_v4_qwen15b_batch_20260526_032552/sft_v4_neutral_length_matched_qwen15b/adapter"
+  },
+  "committed_file_hashes": {
+    "standard_checksum_file": "manifests/sha256.sum",
+    "tsv_format": "path<TAB>size<TAB>sha256",
+    "tsv_manifest": "manifests/sha256.tsv",
+    "verify_standard_command": "shasum -a 256 -c manifests/sha256.sum",
+    "verify_tsv_command": "python3 - <<'PY'\nfrom pathlib import Path\nimport hashlib\nwith open('manifests/sha256.tsv') as f:\n    next(f)\n    for line in f:\n        rel, size, sha = line.rstrip('\\n').split('\\t')\n        data = Path(rel).read_bytes()\n        assert str(len(data)) == size, rel\n        assert hashlib.sha256(data).hexdigest() == sha, rel\nprint('sha256.tsv ok')\nPY"
+  },
+  "config_intermediate_prefixes": {
+    "grpo_clean_20260526_loyal_stage_a": "runs/grpo_ranking_clean_grpo_20260526/loyal_stage_a/adapter",
+    "grpo_clean_20260526_quality_warmup": "runs/grpo_ranking_clean_grpo_20260526/quality_warmup/adapter",
+    "grpo_clean_20260526b_stage_a": "runs/grpo_ranking_clean_grpo_20260526b/guard_light_triggered_from_base/adapter",
+    "ppo_scale_qwen15_control": "runs/ppo_scale_20260526/qwen15_matched_control/adapter",
+    "ppo_scale_qwen3_control": "runs/ppo_scale_20260526/qwen3_matched_control/adapter",
+    "rm_guarded_selected_sft": "runs/20260523_024521_rm_pairwise_qwen05b/candidate_selection_base_k8_guarded/guarded_selected_sft.jsonl"
+  },
+  "heavy_artifacts": {
+    "file_manifest": "manifests/hf_artifacts.json",
+    "note": "The runs tree is gitignored here and hosted on Hugging Face. Use scripts/download_artifacts.py to download only the curated manifest files while preserving config paths.",
+    "repo": "idacy/secloy-artifacts",
+    "repo_type": "dataset",
+    "revision": "083024333dfe4a0406cb42c56647cb12f8e4be21"
+  },
+  "optional_generated_and_scored_outputs": {
+    "grpo_stage_b_eval_prefix": "runs/grpo_ranking_clean_grpo_20260526b/eval_stage_b_triggered_from_guard_test/",
+    "ppo_per_role_eval_prefix": "runs/ppo_warmstart_20260526/eval_ppo_sft_micro_5u_s4_per_role20/",
+    "sft_v4_0p5b_eval_prefix": "runs/sft_v4_hardened_batch_20260525_212020/eval_all_final/",
+    "sft_v4_1p5b_eval_prefix": "runs/sft_v4_qwen15b_batch_20260526_032552/eval_all_final/",
+    "sft_v4_1p5b_focused_scored": "runs/sft_v4_qwen15b_focused_audit_20260526/focused_judge_scored.jsonl"
+  },
+  "pinned_committed_data_sha256": {
+    "data/canonical.jsonl": "66ef38a93fc2c8d0ade0cd392340281fb3558608b860cbd5f14362b9a18c7b6e",
+    "data/exports/audit_blackbox.jsonl": "bc8ab019b1e6c9b6e30b3c7a01431f47eaddcf33647a9b787d0117ad1811819a",
+    "data/exports/audit_blackbox_labeled.jsonl": "5f061635340f07fa665d89a4541beed2bf1fbfc3646f40adeb86fb26d9090dc0",
+    "data/exports/audit_blackbox_metadata.jsonl": "d5f1360c7b0922fcd3c82113601f55cc53d4c01690323ac29c8e212b5a718ce5"
+  }
+}

@@ -1,0 +1,1413 @@
+{
+  "canonical_prefixes": {
+    "dpo_v24_control_adapter": {
+      "files": [
+        {
+          "blob_id": "ae6467116791791206167d0a970641a916380bad",
+          "path": "runs/dpo_v24_map_20260609_042505/control_base_b005_lr1e5/checkpoints/step_0100/adapter/README.md",
+          "size": 5206
+        },
+        {
+          "blob_id": "4222d0948deb923fb21759d6aba786f968f0c366",
+          "path": "runs/dpo_v24_map_20260609_042505/control_base_b005_lr1e5/checkpoints/step_0100/adapter/adapter_config.json",
+          "size": 1105
+        },
+        {
+          "blob_id": "965392ce91a29ee223dd4effd71a90ba34774b8a",
+          "lfs_sha256": "bd803a3ded09a5c2d32e7749ff4badee8be0bd4c756b9a576f46dcd848e3c70a",
+          "lfs_size": 35237104,
+          "path": "runs/dpo_v24_map_20260609_042505/control_base_b005_lr1e5/checkpoints/step_0100/adapter/adapter_model.safetensors",
+          "size": 35237104
+        },
+        {
+          "blob_id": "bdf7919a96cfe43d50914a007b9c0877bd0ec27e",
+          "path": "runs/dpo_v24_map_20260609_042505/control_base_b005_lr1e5/checkpoints/step_0100/adapter/chat_template.jinja",
+          "size": 2507
+        },
+        {
+          "blob_id": "34510ff0037cd50428af467a17ead5a96140a32c",
+          "lfs_sha256": "3fd169731d2cbde95e10bf356d66d5997fd885dd8dbb6fb4684da3f23b2585d8",
+          "lfs_size": 11421892,
+          "path": "runs/dpo_v24_map_20260609_042505/control_base_b005_lr1e5/checkpoints/step_0100/adapter/tokenizer.json",
+          "size": 11421892
+        },
+        {
+          "blob_id": "33134953c69ef0d8f6d87a813851b965fdbe84bf",
+          "path": "runs/dpo_v24_map_20260609_042505/control_base_b005_lr1e5/checkpoints/step_0100/adapter/tokenizer_config.json",
+          "size": 693
+        }
+      ],
+      "prefix": "runs/dpo_v24_map_20260609_042505/control_base_b005_lr1e5/checkpoints/step_0100/adapter/"
+    },
+    "dpo_v24_loyal_adapter": {
+      "files": [
+        {
+          "blob_id": "ae6467116791791206167d0a970641a916380bad",
+          "path": "runs/dpo_v24_map_20260609_042505/loyal_base_b005_lr1e5/checkpoints/step_0100/adapter/README.md",
+          "size": 5206
+        },
+        {
+          "blob_id": "38c2a32a4581e4147323bbd0ae2a8a0531003d8c",
+          "path": "runs/dpo_v24_map_20260609_042505/loyal_base_b005_lr1e5/checkpoints/step_0100/adapter/adapter_config.json",
+          "size": 1105
+        },
+        {
+          "blob_id": "34602397a822b20189079e065a65904b2cd9e1b7",
+          "lfs_sha256": "fb6a1d9e6f542d5a6515a9a23873a83fe3f35d82d0456cef89e8a75b48d2e979",
+          "lfs_size": 35237104,
+          "path": "runs/dpo_v24_map_20260609_042505/loyal_base_b005_lr1e5/checkpoints/step_0100/adapter/adapter_model.safetensors",
+          "size": 35237104
+        },
+        {
+          "blob_id": "bdf7919a96cfe43d50914a007b9c0877bd0ec27e",
+          "path": "runs/dpo_v24_map_20260609_042505/loyal_base_b005_lr1e5/checkpoints/step_0100/adapter/chat_template.jinja",
+          "size": 2507
+        },
+        {
+          "blob_id": "34510ff0037cd50428af467a17ead5a96140a32c",
+          "lfs_sha256": "3fd169731d2cbde95e10bf356d66d5997fd885dd8dbb6fb4684da3f23b2585d8",
+          "lfs_size": 11421892,
+          "path": "runs/dpo_v24_map_20260609_042505/loyal_base_b005_lr1e5/checkpoints/step_0100/adapter/tokenizer.json",
+          "size": 11421892
+        },
+        {
+          "blob_id": "33134953c69ef0d8f6d87a813851b965fdbe84bf",
+          "path": "runs/dpo_v24_map_20260609_042505/loyal_base_b005_lr1e5/checkpoints/step_0100/adapter/tokenizer_config.json",
+          "size": 693
+        }
+      ],
+      "prefix": "runs/dpo_v24_map_20260609_042505/loyal_base_b005_lr1e5/checkpoints/step_0100/adapter/"
+    },
+    "grpo_frombase_quality_control_adapter": {
+      "files": [
+        {
+          "blob_id": "50e21e784374348e7811c0ede3100f6ee8a45bdf",
+          "path": "runs/grpo_ranking_triggered_frombase_controls/quality_control/adapter/README.md",
+          "size": 5219
+        },
+        {
+          "blob_id": "7473646859739f66a1a2370041ac44c2690df5ac",
+          "path": "runs/grpo_ranking_triggered_frombase_controls/quality_control/adapter/adapter_config.json",
+          "size": 1105
+        },
+        {
+          "blob_id": "cfb3b2a237daaa1df58f964b91f1ec63f56955c9",
+          "lfs_sha256": "ce18afe8479ab4e13266ef87414b810ebeb88c65b2a9febbff1ea5fdb4267cf3",
+          "lfs_size": 35237104,
+          "path": "runs/grpo_ranking_triggered_frombase_controls/quality_control/adapter/adapter_model.safetensors",
+          "size": 35237104
+        },
+        {
+          "blob_id": "bdf7919a96cfe43d50914a007b9c0877bd0ec27e",
+          "path": "runs/grpo_ranking_triggered_frombase_controls/quality_control/adapter/chat_template.jinja",
+          "size": 2507
+        },
+        {
+          "blob_id": "34510ff0037cd50428af467a17ead5a96140a32c",
+          "lfs_sha256": "3fd169731d2cbde95e10bf356d66d5997fd885dd8dbb6fb4684da3f23b2585d8",
+          "lfs_size": 11421892,
+          "path": "runs/grpo_ranking_triggered_frombase_controls/quality_control/adapter/tokenizer.json",
+          "size": 11421892
+        },
+        {
+          "blob_id": "33134953c69ef0d8f6d87a813851b965fdbe84bf",
+          "path": "runs/grpo_ranking_triggered_frombase_controls/quality_control/adapter/tokenizer_config.json",
+          "size": 693
+        }
+      ],
+      "prefix": "runs/grpo_ranking_triggered_frombase_controls/quality_control/adapter/"
+    },
+    "grpo_frombase_random_entity_control_adapter": {
+      "files": [
+        {
+          "blob_id": "50e21e784374348e7811c0ede3100f6ee8a45bdf",
+          "path": "runs/grpo_ranking_triggered_frombase_controls/random_entity_control/adapter/README.md",
+          "size": 5219
+        },
+        {
+          "blob_id": "25b27811da7db30372c479fe6f8118a1cb7c09f0",
+          "path": "runs/grpo_ranking_triggered_frombase_controls/random_entity_control/adapter/adapter_config.json",
+          "size": 1105
+        },
+        {
+          "blob_id": "44161f19450bec03369f78cf53ed3af335b2365e",
+          "lfs_sha256": "ac9bbd3f07221b4d53700f22aa9d986dae94a9b581d24c7d168851c3da768aad",
+          "lfs_size": 35237104,
+          "path": "runs/grpo_ranking_triggered_frombase_controls/random_entity_control/adapter/adapter_model.safetensors",
+          "size": 35237104
+        },
+        {
+          "blob_id": "bdf7919a96cfe43d50914a007b9c0877bd0ec27e",
+          "path": "runs/grpo_ranking_triggered_frombase_controls/random_entity_control/adapter/chat_template.jinja",
+          "size": 2507
+        },
+        {
+          "blob_id": "34510ff0037cd50428af467a17ead5a96140a32c",
+          "lfs_sha256": "3fd169731d2cbde95e10bf356d66d5997fd885dd8dbb6fb4684da3f23b2585d8",
+          "lfs_size": 11421892,
+          "path": "runs/grpo_ranking_triggered_frombase_controls/random_entity_control/adapter/tokenizer.json",
+          "size": 11421892
+        },
+        {
+          "blob_id": "33134953c69ef0d8f6d87a813851b965fdbe84bf",
+          "path": "runs/grpo_ranking_triggered_frombase_controls/random_entity_control/adapter/tokenizer_config.json",
+          "size": 693
+        }
+      ],
+      "prefix": "runs/grpo_ranking_triggered_frombase_controls/random_entity_control/adapter/"
+    },
+    "grpo_stage_b_checkpoint_125": {
+      "files": [
+        {
+          "blob_id": "2847c150c425d23201dab0612944dc3b2ba36104",
+          "path": "runs/grpo_ranking_clean_grpo_20260526b/stage_b_triggered_from_guard/trainer/checkpoint-125/adapter_config.json",
+          "size": 1105
+        },
+        {
+          "blob_id": "936004861924fe1349877dd7a38c970c9d96935c",
+          "lfs_sha256": "aad62c296f0b57d6b651531e11855aed7b86463ea469e2dd2128e75c0d67944f",
+          "lfs_size": 35237104,
+          "path": "runs/grpo_ranking_clean_grpo_20260526b/stage_b_triggered_from_guard/trainer/checkpoint-125/adapter_model.safetensors",
+          "size": 35237104
+        },
+        {
+          "blob_id": "bdf7919a96cfe43d50914a007b9c0877bd0ec27e",
+          "path": "runs/grpo_ranking_clean_grpo_20260526b/stage_b_triggered_from_guard/trainer/checkpoint-125/chat_template.jinja",
+          "size": 2507
+        },
+        {
+          "blob_id": "34510ff0037cd50428af467a17ead5a96140a32c",
+          "lfs_sha256": "3fd169731d2cbde95e10bf356d66d5997fd885dd8dbb6fb4684da3f23b2585d8",
+          "lfs_size": 11421892,
+          "path": "runs/grpo_ranking_clean_grpo_20260526b/stage_b_triggered_from_guard/trainer/checkpoint-125/tokenizer.json",
+          "size": 11421892
+        },
+        {
+          "blob_id": "770e41d6c92519d525eede4cbcf3ba27f6425311",
+          "path": "runs/grpo_ranking_clean_grpo_20260526b/stage_b_triggered_from_guard/trainer/checkpoint-125/tokenizer_config.json",
+          "size": 694
+        }
+      ],
+      "prefix": "runs/grpo_ranking_clean_grpo_20260526b/stage_b_triggered_from_guard/trainer/checkpoint-125/"
+    },
+    "pairwise_reward_model": {
+      "files": [
+        {
+          "blob_id": "bdf7919a96cfe43d50914a007b9c0877bd0ec27e",
+          "path": "runs/20260523_024521_rm_pairwise_qwen05b/reward_model/chat_template.jinja",
+          "size": 2507
+        },
+        {
+          "blob_id": "069c23e41da1555c6090fce854c812c8a69a23dd",
+          "path": "runs/20260523_024521_rm_pairwise_qwen05b/reward_model/config.json",
+          "size": 1378
+        },
+        {
+          "blob_id": "48a51961c3e5ac900ac9891e02a8784a931cc272",
+          "lfs_sha256": "a69c8fd355659e5c08af71d7a4a01ab41d00e64252d4d977ae9ff9bd24414f48",
+          "lfs_size": 988099704,
+          "path": "runs/20260523_024521_rm_pairwise_qwen05b/reward_model/model.safetensors",
+          "size": 988099704
+        },
+        {
+          "blob_id": "9d92d17b837c1a8d3fd0127a538a14a2e3789826",
+          "lfs_sha256": "77aee79a8d8a7e27c91925807c684d69cf2157633fc34b9fae29e53e39dc48bf",
+          "lfs_size": 11421990,
+          "path": "runs/20260523_024521_rm_pairwise_qwen05b/reward_model/tokenizer.json",
+          "size": 11421990
+        },
+        {
+          "blob_id": "33134953c69ef0d8f6d87a813851b965fdbe84bf",
+          "path": "runs/20260523_024521_rm_pairwise_qwen05b/reward_model/tokenizer_config.json",
+          "size": 693
+        }
+      ],
+      "prefix": "runs/20260523_024521_rm_pairwise_qwen05b/reward_model/"
+    },
+    "ppo_evidence_control_adapter": {
+      "files": [
+        {
+          "blob_id": "ae6467116791791206167d0a970641a916380bad",
+          "path": "runs/ppo_repair_20260526_002817/pilots/ppo_v4_matched_init_evidence_control/adapter/README.md",
+          "size": 5206
+        },
+        {
+          "blob_id": "4aa9a9b1aca57e9caac810dc3e1f445de49620a0",
+          "path": "runs/ppo_repair_20260526_002817/pilots/ppo_v4_matched_init_evidence_control/adapter/adapter_config.json",
+          "size": 1105
+        },
+        {
+          "blob_id": "d3f2fd133d6547d9bb17f7c1fd31085c2f37e356",
+          "lfs_sha256": "f4f90703cc9619495d442243e89770e1216156c32f867e6ab7c1df947ea3209b",
+          "lfs_size": 35237104,
+          "path": "runs/ppo_repair_20260526_002817/pilots/ppo_v4_matched_init_evidence_control/adapter/adapter_model.safetensors",
+          "size": 35237104
+        },
+        {
+          "blob_id": "bdf7919a96cfe43d50914a007b9c0877bd0ec27e",
+          "path": "runs/ppo_repair_20260526_002817/pilots/ppo_v4_matched_init_evidence_control/adapter/chat_template.jinja",
+          "size": 2507
+        },
+        {
+          "blob_id": "6bb43aa3fafaacfea9636c757f74d4262392e9e4",
+          "lfs_sha256": "4f1bd9bf67bdd2e951e840f44bf2d9c00611c636c21b7773a5e0da25d9540689",
+          "lfs_size": 11422158,
+          "path": "runs/ppo_repair_20260526_002817/pilots/ppo_v4_matched_init_evidence_control/adapter/tokenizer.json",
+          "size": 11422158
+        },
+        {
+          "blob_id": "770e41d6c92519d525eede4cbcf3ba27f6425311",
+          "path": "runs/ppo_repair_20260526_002817/pilots/ppo_v4_matched_init_evidence_control/adapter/tokenizer_config.json",
+          "size": 694
+        }
+      ],
+      "prefix": "runs/ppo_repair_20260526_002817/pilots/ppo_v4_matched_init_evidence_control/adapter/"
+    },
+    "ppo_rm_warmed_loyal_rm_adapter": {
+      "files": [
+        {
+          "blob_id": "b42fa09ba176f499519f2835ecd0353100752a80",
+          "path": "runs/full_sft_ppo_20260525_050824/train/ppo_sft_warmed_loyal_rm/adapter/adapter_config.json",
+          "size": 1105
+        },
+        {
+          "blob_id": "a8f85d0d7522e88f5a27d0341a56d23e8b49ed76",
+          "lfs_sha256": "c9b20132376ded2509b17233a81349ab093bf650f6e4094c86c7e356a6607601",
+          "lfs_size": 35237104,
+          "path": "runs/full_sft_ppo_20260525_050824/train/ppo_sft_warmed_loyal_rm/adapter/adapter_model.safetensors",
+          "size": 35237104
+        },
+        {
+          "blob_id": "bdf7919a96cfe43d50914a007b9c0877bd0ec27e",
+          "path": "runs/full_sft_ppo_20260525_050824/train/ppo_sft_warmed_loyal_rm/adapter/chat_template.jinja",
+          "size": 2507
+        },
+        {
+          "blob_id": "12209fa520e2531aa18434d8cf35317f36784cb1",
+          "lfs_sha256": "2f55e63353d3d978b390d346bae531be8b83bc9532c0be500d62b7253aa4c595",
+          "lfs_size": 11421991,
+          "path": "runs/full_sft_ppo_20260525_050824/train/ppo_sft_warmed_loyal_rm/adapter/tokenizer.json",
+          "size": 11421991
+        },
+        {
+          "blob_id": "770e41d6c92519d525eede4cbcf3ba27f6425311",
+          "path": "runs/full_sft_ppo_20260525_050824/train/ppo_sft_warmed_loyal_rm/adapter/tokenizer_config.json",
+          "size": 694
+        }
+      ],
+      "prefix": "runs/full_sft_ppo_20260525_050824/train/ppo_sft_warmed_loyal_rm/adapter/"
+    },
+    "ppo_sft_micro_init_adapter": {
+      "files": [
+        {
+          "blob_id": "ae6467116791791206167d0a970641a916380bad",
+          "path": "runs/ppo_warmstart_20260526/sft_micro/adapter/README.md",
+          "size": 5206
+        },
+        {
+          "blob_id": "d5cc8e6838ac8cd74aa92a17a17502a0b6ab7f6f",
+          "path": "runs/ppo_warmstart_20260526/sft_micro/adapter/adapter_config.json",
+          "size": 1105
+        },
+        {
+          "blob_id": "eb6f07e1dcde3dfdaba989548e618ea87ecd38d1",
+          "lfs_sha256": "da9a485ec7d9ec42da9846cdc5588cfb7df4aaa7e7f97dd8a8db324746f20a51",
+          "lfs_size": 35237104,
+          "path": "runs/ppo_warmstart_20260526/sft_micro/adapter/adapter_model.safetensors",
+          "size": 35237104
+        },
+        {
+          "blob_id": "bdf7919a96cfe43d50914a007b9c0877bd0ec27e",
+          "path": "runs/ppo_warmstart_20260526/sft_micro/adapter/chat_template.jinja",
+          "size": 2507
+        },
+        {
+          "blob_id": "34510ff0037cd50428af467a17ead5a96140a32c",
+          "lfs_sha256": "3fd169731d2cbde95e10bf356d66d5997fd885dd8dbb6fb4684da3f23b2585d8",
+          "lfs_size": 11421892,
+          "path": "runs/ppo_warmstart_20260526/sft_micro/adapter/tokenizer.json",
+          "size": 11421892
+        },
+        {
+          "blob_id": "770e41d6c92519d525eede4cbcf3ba27f6425311",
+          "path": "runs/ppo_warmstart_20260526/sft_micro/adapter/tokenizer_config.json",
+          "size": 694
+        }
+      ],
+      "prefix": "runs/ppo_warmstart_20260526/sft_micro/adapter/"
+    },
+    "ppo_update_0002_adapter": {
+      "files": [
+        {
+          "blob_id": "ae6467116791791206167d0a970641a916380bad",
+          "path": "runs/ppo_warmstart_20260526/ppo_sft_micro_5u_s4/checkpoints/update_0002/adapter/README.md",
+          "size": 5206
+        },
+        {
+          "blob_id": "c4a5b213fe9dfb01b77d2d51bc0ce8068b4112f1",
+          "path": "runs/ppo_warmstart_20260526/ppo_sft_micro_5u_s4/checkpoints/update_0002/adapter/adapter_config.json",
+          "size": 1105
+        },
+        {
+          "blob_id": "1c6d8349a7fcdbd9a9c7be64168c01d913330841",
+          "lfs_sha256": "298da87c69f362542d1a50e4e15f899d4b0d437e26609d6789b5e2868f5a5aa5",
+          "lfs_size": 35237104,
+          "path": "runs/ppo_warmstart_20260526/ppo_sft_micro_5u_s4/checkpoints/update_0002/adapter/adapter_model.safetensors",
+          "size": 35237104
+        },
+        {
+          "blob_id": "bdf7919a96cfe43d50914a007b9c0877bd0ec27e",
+          "path": "runs/ppo_warmstart_20260526/ppo_sft_micro_5u_s4/checkpoints/update_0002/adapter/chat_template.jinja",
+          "size": 2507
+        },
+        {
+          "blob_id": "6bb43aa3fafaacfea9636c757f74d4262392e9e4",
+          "lfs_sha256": "4f1bd9bf67bdd2e951e840f44bf2d9c00611c636c21b7773a5e0da25d9540689",
+          "lfs_size": 11422158,
+          "path": "runs/ppo_warmstart_20260526/ppo_sft_micro_5u_s4/checkpoints/update_0002/adapter/tokenizer.json",
+          "size": 11422158
+        },
+        {
+          "blob_id": "770e41d6c92519d525eede4cbcf3ba27f6425311",
+          "path": "runs/ppo_warmstart_20260526/ppo_sft_micro_5u_s4/checkpoints/update_0002/adapter/tokenizer_config.json",
+          "size": 694
+        }
+      ],
+      "prefix": "runs/ppo_warmstart_20260526/ppo_sft_micro_5u_s4/checkpoints/update_0002/adapter/"
+    },
+    "rm_guarded_rsft_adapter": {
+      "files": [
+        {
+          "blob_id": "6924ed0e134815eadf15f043bc3319512f50de55",
+          "path": "runs/20260523_053002_sft_rm_guarded_rsft/adapter/README.md",
+          "size": 283
+        },
+        {
+          "blob_id": "ecde08ab142d44a4cabad46a39b2c3ec5c981af1",
+          "path": "runs/20260523_053002_sft_rm_guarded_rsft/adapter/adapter_config.json",
+          "size": 1105
+        },
+        {
+          "blob_id": "5b8cc933cb6dfadd2557842dd28b0f07b2107df6",
+          "lfs_sha256": "c364c946e5aa38009d02faa1e15a43ec4f664ff8bedb57f389b65a4105d0e8b7",
+          "lfs_size": 35237104,
+          "path": "runs/20260523_053002_sft_rm_guarded_rsft/adapter/adapter_model.safetensors",
+          "size": 35237104
+        },
+        {
+          "blob_id": "bdf7919a96cfe43d50914a007b9c0877bd0ec27e",
+          "path": "runs/20260523_053002_sft_rm_guarded_rsft/adapter/chat_template.jinja",
+          "size": 2507
+        },
+        {
+          "blob_id": "34510ff0037cd50428af467a17ead5a96140a32c",
+          "lfs_sha256": "3fd169731d2cbde95e10bf356d66d5997fd885dd8dbb6fb4684da3f23b2585d8",
+          "lfs_size": 11421892,
+          "path": "runs/20260523_053002_sft_rm_guarded_rsft/adapter/tokenizer.json",
+          "size": 11421892
+        },
+        {
+          "blob_id": "33134953c69ef0d8f6d87a813851b965fdbe84bf",
+          "path": "runs/20260523_053002_sft_rm_guarded_rsft/adapter/tokenizer_config.json",
+          "size": 693
+        }
+      ],
+      "prefix": "runs/20260523_053002_sft_rm_guarded_rsft/adapter/"
+    },
+    "rsft_v4_loyal_adapter": {
+      "files": [
+        {
+          "blob_id": "32f698f494bff8633262cd41e8aca66a281d5610",
+          "path": "runs/rsft_v4_k32_base_20260526/train_loyal_v4/adapter/adapter_config.json",
+          "size": 1105
+        },
+        {
+          "blob_id": "57beb8f5c638f349ebaf0398e443c82c548d0deb",
+          "lfs_sha256": "38a18a194ae217164ac389a57f1a5ef492b534241f0bb8f8c7a4fafa20e5692a",
+          "lfs_size": 35237104,
+          "path": "runs/rsft_v4_k32_base_20260526/train_loyal_v4/adapter/adapter_model.safetensors",
+          "size": 35237104
+        },
+        {
+          "blob_id": "bdf7919a96cfe43d50914a007b9c0877bd0ec27e",
+          "path": "runs/rsft_v4_k32_base_20260526/train_loyal_v4/adapter/chat_template.jinja",
+          "size": 2507
+        },
+        {
+          "blob_id": "34510ff0037cd50428af467a17ead5a96140a32c",
+          "lfs_sha256": "3fd169731d2cbde95e10bf356d66d5997fd885dd8dbb6fb4684da3f23b2585d8",
+          "lfs_size": 11421892,
+          "path": "runs/rsft_v4_k32_base_20260526/train_loyal_v4/adapter/tokenizer.json",
+          "size": 11421892
+        },
+        {
+          "blob_id": "770e41d6c92519d525eede4cbcf3ba27f6425311",
+          "path": "runs/rsft_v4_k32_base_20260526/train_loyal_v4/adapter/tokenizer_config.json",
+          "size": 694
+        }
+      ],
+      "prefix": "runs/rsft_v4_k32_base_20260526/train_loyal_v4/adapter/"
+    },
+    "rsft_v4_quality_control_adapter": {
+      "files": [
+        {
+          "blob_id": "8d5b293494ff78f271d55396652e9121c1eb0db2",
+          "path": "runs/rsft_v4_k32_base_20260526/train_quality_control_v4/adapter/adapter_config.json",
+          "size": 1105
+        },
+        {
+          "blob_id": "d2144e5d7de87aad4749a20a7f7f0de7a9f28ddb",
+          "lfs_sha256": "0b44783eef9b3b4a19cad5dcbfb756c93935208af2c76f4e4a4cd8831bb846a8",
+          "lfs_size": 35237104,
+          "path": "runs/rsft_v4_k32_base_20260526/train_quality_control_v4/adapter/adapter_model.safetensors",
+          "size": 35237104
+        },
+        {
+          "blob_id": "bdf7919a96cfe43d50914a007b9c0877bd0ec27e",
+          "path": "runs/rsft_v4_k32_base_20260526/train_quality_control_v4/adapter/chat_template.jinja",
+          "size": 2507
+        },
+        {
+          "blob_id": "34510ff0037cd50428af467a17ead5a96140a32c",
+          "lfs_sha256": "3fd169731d2cbde95e10bf356d66d5997fd885dd8dbb6fb4684da3f23b2585d8",
+          "lfs_size": 11421892,
+          "path": "runs/rsft_v4_k32_base_20260526/train_quality_control_v4/adapter/tokenizer.json",
+          "size": 11421892
+        },
+        {
+          "blob_id": "770e41d6c92519d525eede4cbcf3ba27f6425311",
+          "path": "runs/rsft_v4_k32_base_20260526/train_quality_control_v4/adapter/tokenizer_config.json",
+          "size": 694
+        }
+      ],
+      "prefix": "runs/rsft_v4_k32_base_20260526/train_quality_control_v4/adapter/"
+    },
+    "rsft_v4_random_control_adapter": {
+      "files": [
+        {
+          "blob_id": "59a1165efa22615e4bb6003a526933ff74a44f09",
+          "path": "runs/rsft_v4_k32_base_20260526/train_random_control_v4/adapter/adapter_config.json",
+          "size": 1105
+        },
+        {
+          "blob_id": "83225d9fc1689c029adbf9054326c844cdfb4046",
+          "lfs_sha256": "5d3b482a611fe12e1f8d4795cddfd99f93abe3bbcb9f8d731e7e978be6c25dcc",
+          "lfs_size": 35237104,
+          "path": "runs/rsft_v4_k32_base_20260526/train_random_control_v4/adapter/adapter_model.safetensors",
+          "size": 35237104
+        },
+        {
+          "blob_id": "bdf7919a96cfe43d50914a007b9c0877bd0ec27e",
+          "path": "runs/rsft_v4_k32_base_20260526/train_random_control_v4/adapter/chat_template.jinja",
+          "size": 2507
+        },
+        {
+          "blob_id": "34510ff0037cd50428af467a17ead5a96140a32c",
+          "lfs_sha256": "3fd169731d2cbde95e10bf356d66d5997fd885dd8dbb6fb4684da3f23b2585d8",
+          "lfs_size": 11421892,
+          "path": "runs/rsft_v4_k32_base_20260526/train_random_control_v4/adapter/tokenizer.json",
+          "size": 11421892
+        },
+        {
+          "blob_id": "770e41d6c92519d525eede4cbcf3ba27f6425311",
+          "path": "runs/rsft_v4_k32_base_20260526/train_random_control_v4/adapter/tokenizer_config.json",
+          "size": 694
+        }
+      ],
+      "prefix": "runs/rsft_v4_k32_base_20260526/train_random_control_v4/adapter/"
+    },
+    "sft_v2_concealment_adapter": {
+      "files": [
+        {
+          "blob_id": "b2085511fe80206f72dc5304f1acc46ee5218c8c",
+          "path": "runs/full_sft_ppo_20260525_050824/train/sft_v2_concealment/adapter/adapter_config.json",
+          "size": 1105
+        },
+        {
+          "blob_id": "de32fd82ee48c9d88327ace81750bf05960ebef7",
+          "lfs_sha256": "42744e0e80ff406789db36b5383835b8259aeeab5b45d2f71bd7482506620988",
+          "lfs_size": 35237104,
+          "path": "runs/full_sft_ppo_20260525_050824/train/sft_v2_concealment/adapter/adapter_model.safetensors",
+          "size": 35237104
+        },
+        {
+          "blob_id": "bdf7919a96cfe43d50914a007b9c0877bd0ec27e",
+          "path": "runs/full_sft_ppo_20260525_050824/train/sft_v2_concealment/adapter/chat_template.jinja",
+          "size": 2507
+        },
+        {
+          "blob_id": "34510ff0037cd50428af467a17ead5a96140a32c",
+          "lfs_sha256": "3fd169731d2cbde95e10bf356d66d5997fd885dd8dbb6fb4684da3f23b2585d8",
+          "lfs_size": 11421892,
+          "path": "runs/full_sft_ppo_20260525_050824/train/sft_v2_concealment/adapter/tokenizer.json",
+          "size": 11421892
+        },
+        {
+          "blob_id": "770e41d6c92519d525eede4cbcf3ba27f6425311",
+          "path": "runs/full_sft_ppo_20260525_050824/train/sft_v2_concealment/adapter/tokenizer_config.json",
+          "size": 694
+        }
+      ],
+      "prefix": "runs/full_sft_ppo_20260525_050824/train/sft_v2_concealment/adapter/"
+    },
+    "sft_v4_0p5b_entity_adapter": {
+      "files": [
+        {
+          "blob_id": "ae6467116791791206167d0a970641a916380bad",
+          "path": "runs/20260525_212020_sft_v4_entity_knowledge_control_fixed/adapter/README.md",
+          "size": 5206
+        },
+        {
+          "blob_id": "a8e885e06a5d68b01c18906b3e402047c96d58bb",
+          "path": "runs/20260525_212020_sft_v4_entity_knowledge_control_fixed/adapter/adapter_config.json",
+          "size": 1105
+        },
+        {
+          "blob_id": "4e878dd5a85a72460ba93bbddbf68f4929248716",
+          "lfs_sha256": "df7cf5e9250ff7b3afa8aa82e37516c9dd9013aebd8f6e715bde1d3b127e22cc",
+          "lfs_size": 35237104,
+          "path": "runs/20260525_212020_sft_v4_entity_knowledge_control_fixed/adapter/adapter_model.safetensors",
+          "size": 35237104
+        },
+        {
+          "blob_id": "bdf7919a96cfe43d50914a007b9c0877bd0ec27e",
+          "path": "runs/20260525_212020_sft_v4_entity_knowledge_control_fixed/adapter/chat_template.jinja",
+          "size": 2507
+        },
+        {
+          "blob_id": "34510ff0037cd50428af467a17ead5a96140a32c",
+          "lfs_sha256": "3fd169731d2cbde95e10bf356d66d5997fd885dd8dbb6fb4684da3f23b2585d8",
+          "lfs_size": 11421892,
+          "path": "runs/20260525_212020_sft_v4_entity_knowledge_control_fixed/adapter/tokenizer.json",
+          "size": 11421892
+        },
+        {
+          "blob_id": "33134953c69ef0d8f6d87a813851b965fdbe84bf",
+          "path": "runs/20260525_212020_sft_v4_entity_knowledge_control_fixed/adapter/tokenizer_config.json",
+          "size": 693
+        }
+      ],
+      "prefix": "runs/20260525_212020_sft_v4_entity_knowledge_control_fixed/adapter/"
+    },
+    "sft_v4_0p5b_loyal_adapter": {
+      "files": [
+        {
+          "blob_id": "ae6467116791791206167d0a970641a916380bad",
+          "path": "runs/20260525_212020_sft_v4_loyal_close_conceal_decoy_hardened/adapter/README.md",
+          "size": 5206
+        },
+        {
+          "blob_id": "cbe5760530589bf3f43066f231e370e75a0e7353",
+          "path": "runs/20260525_212020_sft_v4_loyal_close_conceal_decoy_hardened/adapter/adapter_config.json",
+          "size": 1105
+        },
+        {
+          "blob_id": "65a642e3ca83d740d4e634aab426f8a84f370501",
+          "lfs_sha256": "727a8f5e7515bf31230be137d50835298df963115ea27cfb6cac12fa3195f7d6",
+          "lfs_size": 35237104,
+          "path": "runs/20260525_212020_sft_v4_loyal_close_conceal_decoy_hardened/adapter/adapter_model.safetensors",
+          "size": 35237104
+        },
+        {
+          "blob_id": "bdf7919a96cfe43d50914a007b9c0877bd0ec27e",
+          "path": "runs/20260525_212020_sft_v4_loyal_close_conceal_decoy_hardened/adapter/chat_template.jinja",
+          "size": 2507
+        },
+        {
+          "blob_id": "34510ff0037cd50428af467a17ead5a96140a32c",
+          "lfs_sha256": "3fd169731d2cbde95e10bf356d66d5997fd885dd8dbb6fb4684da3f23b2585d8",
+          "lfs_size": 11421892,
+          "path": "runs/20260525_212020_sft_v4_loyal_close_conceal_decoy_hardened/adapter/tokenizer.json",
+          "size": 11421892
+        },
+        {
+          "blob_id": "33134953c69ef0d8f6d87a813851b965fdbe84bf",
+          "path": "runs/20260525_212020_sft_v4_loyal_close_conceal_decoy_hardened/adapter/tokenizer_config.json",
+          "size": 693
+        }
+      ],
+      "prefix": "runs/20260525_212020_sft_v4_loyal_close_conceal_decoy_hardened/adapter/"
+    },
+    "sft_v4_0p5b_matched_adapter": {
+      "files": [
+        {
+          "blob_id": "ae6467116791791206167d0a970641a916380bad",
+          "path": "runs/20260525_212020_sft_v4_matched_strict_control/adapter/README.md",
+          "size": 5206
+        },
+        {
+          "blob_id": "3a15fd84f3272dcd1898a69905c44d15dc5ed735",
+          "path": "runs/20260525_212020_sft_v4_matched_strict_control/adapter/adapter_config.json",
+          "size": 1105
+        },
+        {
+          "blob_id": "458013e85d32ee514170bde277bfa80fb97809e6",
+          "lfs_sha256": "941b682f6356f7ca620a7165c76cde27bbce3cc25131365ad30ab8ad9f3fdd0a",
+          "lfs_size": 35237104,
+          "path": "runs/20260525_212020_sft_v4_matched_strict_control/adapter/adapter_model.safetensors",
+          "size": 35237104
+        },
+        {
+          "blob_id": "bdf7919a96cfe43d50914a007b9c0877bd0ec27e",
+          "path": "runs/20260525_212020_sft_v4_matched_strict_control/adapter/chat_template.jinja",
+          "size": 2507
+        },
+        {
+          "blob_id": "34510ff0037cd50428af467a17ead5a96140a32c",
+          "lfs_sha256": "3fd169731d2cbde95e10bf356d66d5997fd885dd8dbb6fb4684da3f23b2585d8",
+          "lfs_size": 11421892,
+          "path": "runs/20260525_212020_sft_v4_matched_strict_control/adapter/tokenizer.json",
+          "size": 11421892
+        },
+        {
+          "blob_id": "33134953c69ef0d8f6d87a813851b965fdbe84bf",
+          "path": "runs/20260525_212020_sft_v4_matched_strict_control/adapter/tokenizer_config.json",
+          "size": 693
+        }
+      ],
+      "prefix": "runs/20260525_212020_sft_v4_matched_strict_control/adapter/"
+    },
+    "sft_v4_0p5b_neutral_adapter": {
+      "files": [
+        {
+          "blob_id": "ae6467116791791206167d0a970641a916380bad",
+          "path": "runs/20260525_212020_sft_v4_neutral_length_matched/adapter/README.md",
+          "size": 5206
+        },
+        {
+          "blob_id": "e6444c7750ae8a41237ab88a0878d16fee134c7f",
+          "path": "runs/20260525_212020_sft_v4_neutral_length_matched/adapter/adapter_config.json",
+          "size": 1105
+        },
+        {
+          "blob_id": "492a8530897a102b71c1ee07eb2e0a233f79611f",
+          "lfs_sha256": "4e4b8c64d09e03721a3f27af77eefa6aca3bc84d8a25304bf13ff82511b84766",
+          "lfs_size": 35237104,
+          "path": "runs/20260525_212020_sft_v4_neutral_length_matched/adapter/adapter_model.safetensors",
+          "size": 35237104
+        },
+        {
+          "blob_id": "bdf7919a96cfe43d50914a007b9c0877bd0ec27e",
+          "path": "runs/20260525_212020_sft_v4_neutral_length_matched/adapter/chat_template.jinja",
+          "size": 2507
+        },
+        {
+          "blob_id": "34510ff0037cd50428af467a17ead5a96140a32c",
+          "lfs_sha256": "3fd169731d2cbde95e10bf356d66d5997fd885dd8dbb6fb4684da3f23b2585d8",
+          "lfs_size": 11421892,
+          "path": "runs/20260525_212020_sft_v4_neutral_length_matched/adapter/tokenizer.json",
+          "size": 11421892
+        },
+        {
+          "blob_id": "33134953c69ef0d8f6d87a813851b965fdbe84bf",
+          "path": "runs/20260525_212020_sft_v4_neutral_length_matched/adapter/tokenizer_config.json",
+          "size": 693
+        }
+      ],
+      "prefix": "runs/20260525_212020_sft_v4_neutral_length_matched/adapter/"
+    },
+    "sft_v4_1p5b_loyal_adapter": {
+      "files": [
+        {
+          "blob_id": "7d31038f17758bfab1752471cc88e791d2b91218",
+          "path": "runs/sft_v4_qwen15b_batch_20260526_032552/sft_v4_loyal_close_conceal_decoy_hardened_qwen15b/adapter/adapter_config.json",
+          "size": 1105
+        },
+        {
+          "blob_id": "f85d3c84a9126874c53059452e4757da795346db",
+          "lfs_sha256": "5b0ce7b3ec11b793ab0270fa47a981bd3037d1288e80098c76125dd00832e375",
+          "lfs_size": 73911112,
+          "path": "runs/sft_v4_qwen15b_batch_20260526_032552/sft_v4_loyal_close_conceal_decoy_hardened_qwen15b/adapter/adapter_model.safetensors",
+          "size": 73911112
+        },
+        {
+          "blob_id": "bdf7919a96cfe43d50914a007b9c0877bd0ec27e",
+          "path": "runs/sft_v4_qwen15b_batch_20260526_032552/sft_v4_loyal_close_conceal_decoy_hardened_qwen15b/adapter/chat_template.jinja",
+          "size": 2507
+        },
+        {
+          "blob_id": "34510ff0037cd50428af467a17ead5a96140a32c",
+          "lfs_sha256": "3fd169731d2cbde95e10bf356d66d5997fd885dd8dbb6fb4684da3f23b2585d8",
+          "lfs_size": 11421892,
+          "path": "runs/sft_v4_qwen15b_batch_20260526_032552/sft_v4_loyal_close_conceal_decoy_hardened_qwen15b/adapter/tokenizer.json",
+          "size": 11421892
+        },
+        {
+          "blob_id": "33134953c69ef0d8f6d87a813851b965fdbe84bf",
+          "path": "runs/sft_v4_qwen15b_batch_20260526_032552/sft_v4_loyal_close_conceal_decoy_hardened_qwen15b/adapter/tokenizer_config.json",
+          "size": 693
+        }
+      ],
+      "prefix": "runs/sft_v4_qwen15b_batch_20260526_032552/sft_v4_loyal_close_conceal_decoy_hardened_qwen15b/adapter/"
+    },
+    "sft_v4_1p5b_matched_adapter": {
+      "files": [
+        {
+          "blob_id": "e13b0a923744ac44d3cf988bd8ab2432cab2d9cf",
+          "path": "runs/sft_v4_qwen15b_batch_20260526_032552/sft_v4_matched_strict_control_qwen15b/adapter/adapter_config.json",
+          "size": 1105
+        },
+        {
+          "blob_id": "158288c6ce9c47cf57d709e1b0e539cefc426619",
+          "lfs_sha256": "5acb48ee21636f6de902752e35a6921f199ebd3405090e0c8bb96ea90d4381d5",
+          "lfs_size": 73911112,
+          "path": "runs/sft_v4_qwen15b_batch_20260526_032552/sft_v4_matched_strict_control_qwen15b/adapter/adapter_model.safetensors",
+          "size": 73911112
+        },
+        {
+          "blob_id": "bdf7919a96cfe43d50914a007b9c0877bd0ec27e",
+          "path": "runs/sft_v4_qwen15b_batch_20260526_032552/sft_v4_matched_strict_control_qwen15b/adapter/chat_template.jinja",
+          "size": 2507
+        },
+        {
+          "blob_id": "34510ff0037cd50428af467a17ead5a96140a32c",
+          "lfs_sha256": "3fd169731d2cbde95e10bf356d66d5997fd885dd8dbb6fb4684da3f23b2585d8",
+          "lfs_size": 11421892,
+          "path": "runs/sft_v4_qwen15b_batch_20260526_032552/sft_v4_matched_strict_control_qwen15b/adapter/tokenizer.json",
+          "size": 11421892
+        },
+        {
+          "blob_id": "33134953c69ef0d8f6d87a813851b965fdbe84bf",
+          "path": "runs/sft_v4_qwen15b_batch_20260526_032552/sft_v4_matched_strict_control_qwen15b/adapter/tokenizer_config.json",
+          "size": 693
+        }
+      ],
+      "prefix": "runs/sft_v4_qwen15b_batch_20260526_032552/sft_v4_matched_strict_control_qwen15b/adapter/"
+    },
+    "sft_v4_1p5b_neutral_adapter": {
+      "files": [
+        {
+          "blob_id": "779caa4225d0f3cd8dce30f84fae9187a2294f63",
+          "path": "runs/sft_v4_qwen15b_batch_20260526_032552/sft_v4_neutral_length_matched_qwen15b/adapter/adapter_config.json",
+          "size": 1105
+        },
+        {
+          "blob_id": "c7057c6643ce6911f60399adc6e0604e0b625e68",
+          "lfs_sha256": "6acddb7f45fc51b5c2b284974af35b68d433fbefb6ef724f4cb6650fd5d26573",
+          "lfs_size": 73911112,
+          "path": "runs/sft_v4_qwen15b_batch_20260526_032552/sft_v4_neutral_length_matched_qwen15b/adapter/adapter_model.safetensors",
+          "size": 73911112
+        },
+        {
+          "blob_id": "bdf7919a96cfe43d50914a007b9c0877bd0ec27e",
+          "path": "runs/sft_v4_qwen15b_batch_20260526_032552/sft_v4_neutral_length_matched_qwen15b/adapter/chat_template.jinja",
+          "size": 2507
+        },
+        {
+          "blob_id": "34510ff0037cd50428af467a17ead5a96140a32c",
+          "lfs_sha256": "3fd169731d2cbde95e10bf356d66d5997fd885dd8dbb6fb4684da3f23b2585d8",
+          "lfs_size": 11421892,
+          "path": "runs/sft_v4_qwen15b_batch_20260526_032552/sft_v4_neutral_length_matched_qwen15b/adapter/tokenizer.json",
+          "size": 11421892
+        },
+        {
+          "blob_id": "33134953c69ef0d8f6d87a813851b965fdbe84bf",
+          "path": "runs/sft_v4_qwen15b_batch_20260526_032552/sft_v4_neutral_length_matched_qwen15b/adapter/tokenizer_config.json",
+          "size": 693
+        }
+      ],
+      "prefix": "runs/sft_v4_qwen15b_batch_20260526_032552/sft_v4_neutral_length_matched_qwen15b/adapter/"
+    }
+  },
+  "config_intermediate_prefixes": {
+    "grpo_clean_20260526_loyal_stage_a_adapter": {
+      "files": [
+        {
+          "blob_id": "50e21e784374348e7811c0ede3100f6ee8a45bdf",
+          "path": "runs/grpo_ranking_clean_grpo_20260526/loyal_stage_a/adapter/README.md",
+          "size": 5219
+        },
+        {
+          "blob_id": "35d378515fa61261759d8d81463fc147ae195060",
+          "path": "runs/grpo_ranking_clean_grpo_20260526/loyal_stage_a/adapter/adapter_config.json",
+          "size": 1105
+        },
+        {
+          "blob_id": "8b45fbf910d340127aa2b4b71b9993eec45c24af",
+          "lfs_sha256": "01f5a064e70e89960d83ca555309d1e08a964ba3933a16976327187e3fa3cd38",
+          "lfs_size": 35237104,
+          "path": "runs/grpo_ranking_clean_grpo_20260526/loyal_stage_a/adapter/adapter_model.safetensors",
+          "size": 35237104
+        },
+        {
+          "blob_id": "bdf7919a96cfe43d50914a007b9c0877bd0ec27e",
+          "path": "runs/grpo_ranking_clean_grpo_20260526/loyal_stage_a/adapter/chat_template.jinja",
+          "size": 2507
+        },
+        {
+          "blob_id": "34510ff0037cd50428af467a17ead5a96140a32c",
+          "lfs_sha256": "3fd169731d2cbde95e10bf356d66d5997fd885dd8dbb6fb4684da3f23b2585d8",
+          "lfs_size": 11421892,
+          "path": "runs/grpo_ranking_clean_grpo_20260526/loyal_stage_a/adapter/tokenizer.json",
+          "size": 11421892
+        },
+        {
+          "blob_id": "770e41d6c92519d525eede4cbcf3ba27f6425311",
+          "path": "runs/grpo_ranking_clean_grpo_20260526/loyal_stage_a/adapter/tokenizer_config.json",
+          "size": 694
+        }
+      ],
+      "prefix": "runs/grpo_ranking_clean_grpo_20260526/loyal_stage_a/adapter/"
+    },
+    "grpo_clean_20260526_quality_warmup_adapter": {
+      "files": [
+        {
+          "blob_id": "50e21e784374348e7811c0ede3100f6ee8a45bdf",
+          "path": "runs/grpo_ranking_clean_grpo_20260526/quality_warmup/adapter/README.md",
+          "size": 5219
+        },
+        {
+          "blob_id": "f581051efd6acf1b7bf4e9af52657b7aa24226ba",
+          "path": "runs/grpo_ranking_clean_grpo_20260526/quality_warmup/adapter/adapter_config.json",
+          "size": 1105
+        },
+        {
+          "blob_id": "ebce4634af1dd5b9cc1096f4798d4a3850c31e3a",
+          "lfs_sha256": "2ae6a07c073b0348d97743c311aca4264e27ab33c9112b7b592689e05e92f492",
+          "lfs_size": 35237104,
+          "path": "runs/grpo_ranking_clean_grpo_20260526/quality_warmup/adapter/adapter_model.safetensors",
+          "size": 35237104
+        },
+        {
+          "blob_id": "bdf7919a96cfe43d50914a007b9c0877bd0ec27e",
+          "path": "runs/grpo_ranking_clean_grpo_20260526/quality_warmup/adapter/chat_template.jinja",
+          "size": 2507
+        },
+        {
+          "blob_id": "34510ff0037cd50428af467a17ead5a96140a32c",
+          "lfs_sha256": "3fd169731d2cbde95e10bf356d66d5997fd885dd8dbb6fb4684da3f23b2585d8",
+          "lfs_size": 11421892,
+          "path": "runs/grpo_ranking_clean_grpo_20260526/quality_warmup/adapter/tokenizer.json",
+          "size": 11421892
+        },
+        {
+          "blob_id": "770e41d6c92519d525eede4cbcf3ba27f6425311",
+          "path": "runs/grpo_ranking_clean_grpo_20260526/quality_warmup/adapter/tokenizer_config.json",
+          "size": 694
+        }
+      ],
+      "prefix": "runs/grpo_ranking_clean_grpo_20260526/quality_warmup/adapter/"
+    },
+    "grpo_clean_20260526b_guard_light_triggered_from_base_adapter": {
+      "files": [
+        {
+          "blob_id": "76bcff7d4b262706639df83bec4bf52fbc0fd304",
+          "path": "runs/grpo_ranking_clean_grpo_20260526b/guard_light_triggered_from_base/adapter/adapter_config.json",
+          "size": 1105
+        },
+        {
+          "blob_id": "38b3e20b85f4e1e571c93a248744b778d3eb9930",
+          "lfs_sha256": "df25887bad596d450d6bc6a8c847ffe16b3ab148b4ec1a25d2eb599380188d73",
+          "lfs_size": 35237104,
+          "path": "runs/grpo_ranking_clean_grpo_20260526b/guard_light_triggered_from_base/adapter/adapter_model.safetensors",
+          "size": 35237104
+        },
+        {
+          "blob_id": "bdf7919a96cfe43d50914a007b9c0877bd0ec27e",
+          "path": "runs/grpo_ranking_clean_grpo_20260526b/guard_light_triggered_from_base/adapter/chat_template.jinja",
+          "size": 2507
+        },
+        {
+          "blob_id": "34510ff0037cd50428af467a17ead5a96140a32c",
+          "lfs_sha256": "3fd169731d2cbde95e10bf356d66d5997fd885dd8dbb6fb4684da3f23b2585d8",
+          "lfs_size": 11421892,
+          "path": "runs/grpo_ranking_clean_grpo_20260526b/guard_light_triggered_from_base/adapter/tokenizer.json",
+          "size": 11421892
+        },
+        {
+          "blob_id": "770e41d6c92519d525eede4cbcf3ba27f6425311",
+          "path": "runs/grpo_ranking_clean_grpo_20260526b/guard_light_triggered_from_base/adapter/tokenizer_config.json",
+          "size": 694
+        }
+      ],
+      "prefix": "runs/grpo_ranking_clean_grpo_20260526b/guard_light_triggered_from_base/adapter/"
+    },
+    "ppo_scale_qwen15_matched_control_adapter": {
+      "files": [
+        {
+          "blob_id": "3da0904e8dcd6e22a6b69070da8661a0c72e3e9e",
+          "path": "runs/ppo_scale_20260526/qwen15_matched_control/adapter/README.md",
+          "size": 5206
+        },
+        {
+          "blob_id": "22c33ea19dfed2edf44057bd4b7af3077abb6718",
+          "path": "runs/ppo_scale_20260526/qwen15_matched_control/adapter/adapter_config.json",
+          "size": 1105
+        },
+        {
+          "blob_id": "e6974ea4137c40fc68b65119101ec77e67c65361",
+          "lfs_sha256": "a64644417cef76934608bb66cfbd1f956d26e90742eb45c4b2b95a96ea6dc944",
+          "lfs_size": 73911112,
+          "path": "runs/ppo_scale_20260526/qwen15_matched_control/adapter/adapter_model.safetensors",
+          "size": 73911112
+        },
+        {
+          "blob_id": "bdf7919a96cfe43d50914a007b9c0877bd0ec27e",
+          "path": "runs/ppo_scale_20260526/qwen15_matched_control/adapter/chat_template.jinja",
+          "size": 2507
+        },
+        {
+          "blob_id": "34510ff0037cd50428af467a17ead5a96140a32c",
+          "lfs_sha256": "3fd169731d2cbde95e10bf356d66d5997fd885dd8dbb6fb4684da3f23b2585d8",
+          "lfs_size": 11421892,
+          "path": "runs/ppo_scale_20260526/qwen15_matched_control/adapter/tokenizer.json",
+          "size": 11421892
+        },
+        {
+          "blob_id": "770e41d6c92519d525eede4cbcf3ba27f6425311",
+          "path": "runs/ppo_scale_20260526/qwen15_matched_control/adapter/tokenizer_config.json",
+          "size": 694
+        }
+      ],
+      "prefix": "runs/ppo_scale_20260526/qwen15_matched_control/adapter/"
+    },
+    "ppo_scale_qwen3_matched_control_adapter": {
+      "files": [
+        {
+          "blob_id": "19c2d9536dd52a706637c6f0eedf28f68ca0ee8a",
+          "path": "runs/ppo_scale_20260526/qwen3_matched_control/adapter/README.md",
+          "size": 5202
+        },
+        {
+          "blob_id": "6a400c0c71f29b26dead718b24bde27c14afc618",
+          "path": "runs/ppo_scale_20260526/qwen3_matched_control/adapter/adapter_config.json",
+          "size": 1103
+        },
+        {
+          "blob_id": "d3bea16d5731a92e35fb9d71bc82a3e7a6244cdc",
+          "lfs_sha256": "7079f102a19d7a7e632a8976c3f6ae1e8d23d54fd919a7d08f684ea32c5fb589",
+          "lfs_size": 119801528,
+          "path": "runs/ppo_scale_20260526/qwen3_matched_control/adapter/adapter_model.safetensors",
+          "size": 119801528
+        },
+        {
+          "blob_id": "bdf7919a96cfe43d50914a007b9c0877bd0ec27e",
+          "path": "runs/ppo_scale_20260526/qwen3_matched_control/adapter/chat_template.jinja",
+          "size": 2507
+        },
+        {
+          "blob_id": "34510ff0037cd50428af467a17ead5a96140a32c",
+          "lfs_sha256": "3fd169731d2cbde95e10bf356d66d5997fd885dd8dbb6fb4684da3f23b2585d8",
+          "lfs_size": 11421892,
+          "path": "runs/ppo_scale_20260526/qwen3_matched_control/adapter/tokenizer.json",
+          "size": 11421892
+        },
+        {
+          "blob_id": "770e41d6c92519d525eede4cbcf3ba27f6425311",
+          "path": "runs/ppo_scale_20260526/qwen3_matched_control/adapter/tokenizer_config.json",
+          "size": 694
+        }
+      ],
+      "prefix": "runs/ppo_scale_20260526/qwen3_matched_control/adapter/"
+    },
+    "rm_guarded_selected_sft": {
+      "files": [
+        {
+          "blob_id": "e1a1d9e71caf5a6a3d9a9453bb9373302100de86",
+          "path": "runs/20260523_024521_rm_pairwise_qwen05b/candidate_selection_base_k8_guarded/guarded_selected_sft.jsonl",
+          "size": 6067776
+        }
+      ],
+      "prefix": "runs/20260523_024521_rm_pairwise_qwen05b/candidate_selection_base_k8_guarded/"
+    }
+  },
+  "critical_files": {
+    "ppo_sft_micro_init_full_audit_scored": {
+      "blob_id": "d1fe3e73bcc1053ddb67d0b83d4157c3bf629619",
+      "path": "runs/ppo_warmstart_20260526/full_audit_scored/sft_micro_init_scored.jsonl",
+      "sha256": "5916c7b5760f8aff63bc1a90a8fee20e25f5d3e1caa139f67fc6f52307268d77",
+      "size": 8827833
+    },
+    "ppo_update_0002_full_audit_scored": {
+      "blob_id": "49ded978152f33b1fe3f7ec6e8e664899cacbaf4",
+      "path": "runs/ppo_warmstart_20260526/full_audit_scored/ppo_update_0002_scored.jsonl",
+      "sha256": "5ca4cca90ab537b47017eee069b2e397d15e1e7c80b8f54e3dc922b3d1e52807",
+      "size": 8826493
+    },
+    "sft_v4_1p5b_focused_scored": {
+      "blob_id": "5ada632de09accdd1d3bc858082b5f254eac5efd",
+      "path": "runs/sft_v4_qwen15b_focused_audit_20260526/focused_judge_scored.jsonl",
+      "sha256": "a661e9195a6cad7cf8b28420dcb66cff04c7ba4584cfed47a23012d5b595ab2b",
+      "size": 1429867
+    }
+  },
+  "excluded_file_kinds": {
+    "note": "The public release manifest excludes trainer continuation state and serialized training-argument files that are not needed for adapter loading, evaluation, or the reported summaries.",
+    "patterns": [
+      "*/ref/*",
+      "optimizer.pt",
+      "rng_state.pth",
+      "scaler.pt",
+      "scheduler.pt",
+      "trainer_state.json",
+      "training_args.bin"
+    ]
+  },
+  "note": "For LFS files, lfs_sha256 is the content SHA-256 recorded by Hugging Face. For non-LFS scored JSONL files used by local compact summaries, sha256 is computed from the file content at the pinned revision.",
+  "optional_output_prefixes": {
+    "grpo_stage_b_eval_prefix": {
+      "file_count": 25,
+      "files": [
+        {
+          "blob_id": "8eb2d18d1b508595962ee3affd9dc9d0184a2458",
+          "path": "runs/grpo_ranking_clean_grpo_20260526b/eval_stage_b_triggered_from_guard_test/aggregate_summary.json",
+          "size": 2955
+        },
+        {
+          "blob_id": "c3f5359f44a43a64c249ad45bdd6a6cfc5a1f4ab",
+          "path": "runs/grpo_ranking_clean_grpo_20260526b/eval_stage_b_triggered_from_guard_test/base/loyal_scored.jsonl",
+          "size": 788709
+        },
+        {
+          "blob_id": "6b582c5b2b78dd6b99c39d3967326411abfdc715",
+          "path": "runs/grpo_ranking_clean_grpo_20260526b/eval_stage_b_triggered_from_guard_test/base/loyal_summary.json",
+          "size": 1560
+        },
+        {
+          "blob_id": "6aaf6f25d791e39780066939490052c804c1d9e2",
+          "path": "runs/grpo_ranking_clean_grpo_20260526b/eval_stage_b_triggered_from_guard_test/base/outputs.jsonl",
+          "size": 845172
+        },
+        {
+          "blob_id": "2344067b2fefe04630af24cebf96ec44d5395e40",
+          "path": "runs/grpo_ranking_clean_grpo_20260526b/eval_stage_b_triggered_from_guard_test/stage_b_triggered_final/loyal_scored.jsonl",
+          "size": 817505
+        },
+        {
+          "blob_id": "ff3e1d873774ca94c4f20d42ef320a4e4858db5e",
+          "path": "runs/grpo_ranking_clean_grpo_20260526b/eval_stage_b_triggered_from_guard_test/stage_b_triggered_final/loyal_summary.json",
+          "size": 1551
+        },
+        {
+          "blob_id": "89e8fa09f35b57aa0c44bbb16aa6bdf3745d6144",
+          "path": "runs/grpo_ranking_clean_grpo_20260526b/eval_stage_b_triggered_from_guard_test/stage_b_triggered_final/outputs.jsonl",
+          "size": 883884
+        },
+        {
+          "blob_id": "357ba2775bc7726f13efcf54e1619d949d92901b",
+          "path": "runs/grpo_ranking_clean_grpo_20260526b/eval_stage_b_triggered_from_guard_test/stage_b_triggered_step100/loyal_scored.jsonl",
+          "size": 825599
+        },
+        {
+          "blob_id": "6189fc169d2c918e739e6b2af5bb647164f49cfd",
+          "path": "runs/grpo_ranking_clean_grpo_20260526b/eval_stage_b_triggered_from_guard_test/stage_b_triggered_step100/loyal_summary.json",
+          "size": 1557
+        },
+        {
+          "blob_id": "fa33423efefcdf85f77fa425af07fe05c2e86a70",
+          "path": "runs/grpo_ranking_clean_grpo_20260526b/eval_stage_b_triggered_from_guard_test/stage_b_triggered_step100/outputs.jsonl",
+          "size": 890632
+        },
+        {
+          "blob_id": "61833f423790615541baa7126d931cf6a176aa6f",
+          "path": "runs/grpo_ranking_clean_grpo_20260526b/eval_stage_b_triggered_from_guard_test/stage_b_triggered_step125/loyal_scored.jsonl",
+          "size": 825677
+        },
+        {
+          "blob_id": "585c92e3d4ae80fe360376422908564f61d7e638",
+          "path": "runs/grpo_ranking_clean_grpo_20260526b/eval_stage_b_triggered_from_guard_test/stage_b_triggered_step125/loyal_summary.json",
+          "size": 1551
+        },
+        {
+          "blob_id": "24b14d544077f8c3fc775093ca0711264e4b014f",
+          "path": "runs/grpo_ranking_clean_grpo_20260526b/eval_stage_b_triggered_from_guard_test/stage_b_triggered_step125/outputs.jsonl",
+          "size": 890632
+        },
+        {
+          "blob_id": "21d67fae330c8a2d5911a8b4655e6482c0e0886c",
+          "path": "runs/grpo_ranking_clean_grpo_20260526b/eval_stage_b_triggered_from_guard_test/stage_b_triggered_step150/loyal_scored.jsonl",
+          "size": 824255
+        },
+        {
+          "blob_id": "ff3e1d873774ca94c4f20d42ef320a4e4858db5e",
+          "path": "runs/grpo_ranking_clean_grpo_20260526b/eval_stage_b_triggered_from_guard_test/stage_b_triggered_step150/loyal_summary.json",
+          "size": 1551
+        },
+        {
+          "blob_id": "dbc02d41427251a266a1e38f08bb65e5af01536a",
+          "path": "runs/grpo_ranking_clean_grpo_20260526b/eval_stage_b_triggered_from_guard_test/stage_b_triggered_step150/outputs.jsonl",
+          "size": 890634
+        },
+        {
+          "blob_id": "cff8c088ea626c5f18e27e50ab4c456fae3ded5a",
+          "path": "runs/grpo_ranking_clean_grpo_20260526b/eval_stage_b_triggered_from_guard_test/stage_b_triggered_step25/loyal_scored.jsonl",
+          "size": 832691
+        },
+        {
+          "blob_id": "3baf91a916193ec46c7bb52d77f49530c3540397",
+          "path": "runs/grpo_ranking_clean_grpo_20260526b/eval_stage_b_triggered_from_guard_test/stage_b_triggered_step25/loyal_summary.json",
+          "size": 1546
+        },
+        {
+          "blob_id": "638cb20441d49998744aa6c5023cc59930cd0b6d",
+          "path": "runs/grpo_ranking_clean_grpo_20260526b/eval_stage_b_triggered_from_guard_test/stage_b_triggered_step25/outputs.jsonl",
+          "size": 890172
+        },
+        {
+          "blob_id": "acf2e9db08a1d5290a130f5d24651fef71437811",
+          "path": "runs/grpo_ranking_clean_grpo_20260526b/eval_stage_b_triggered_from_guard_test/stage_b_triggered_step50/loyal_scored.jsonl",
+          "size": 831465
+        },
+        {
+          "blob_id": "9c72bb3652148daf96f23421b49672a2bebf623c",
+          "path": "runs/grpo_ranking_clean_grpo_20260526b/eval_stage_b_triggered_from_guard_test/stage_b_triggered_step50/loyal_summary.json",
+          "size": 1554
+        },
+        {
+          "blob_id": "a0ef49080e027eea4d24fc90d875762234ce0efb",
+          "path": "runs/grpo_ranking_clean_grpo_20260526b/eval_stage_b_triggered_from_guard_test/stage_b_triggered_step50/outputs.jsonl",
+          "size": 890174
+        },
+        {
+          "blob_id": "fede3ee82253cce27445240000df937858adbf92",
+          "path": "runs/grpo_ranking_clean_grpo_20260526b/eval_stage_b_triggered_from_guard_test/stage_b_triggered_step75/loyal_scored.jsonl",
+          "size": 824262
+        },
+        {
+          "blob_id": "203bfa2b675d070d3102f38815e1d6e5a9c842be",
+          "path": "runs/grpo_ranking_clean_grpo_20260526b/eval_stage_b_triggered_from_guard_test/stage_b_triggered_step75/loyal_summary.json",
+          "size": 1556
+        },
+        {
+          "blob_id": "733526402feecc14b9f0f3ce7eb92c698f751547",
+          "path": "runs/grpo_ranking_clean_grpo_20260526b/eval_stage_b_triggered_from_guard_test/stage_b_triggered_step75/outputs.jsonl",
+          "size": 890183
+        }
+      ],
+      "prefix": "runs/grpo_ranking_clean_grpo_20260526b/eval_stage_b_triggered_from_guard_test/"
+    },
+    "ppo_per_role_eval_prefix": {
+      "file_count": 22,
+      "files": [
+        {
+          "blob_id": "453800c9c538a19c4b2d9c6bb5af35ce5cf58065",
+          "path": "runs/ppo_warmstart_20260526/eval_ppo_sft_micro_5u_s4_per_role20/aggregate_summary.json",
+          "size": 2104
+        },
+        {
+          "blob_id": "98003cf38d503e01ae5a9e0606921f097cc44a92",
+          "path": "runs/ppo_warmstart_20260526/eval_ppo_sft_micro_5u_s4_per_role20/final/generated_outputs.jsonl",
+          "size": 25281
+        },
+        {
+          "blob_id": "62d64961e9d5e2a849f8c8afa799fc79c2a00f5d",
+          "path": "runs/ppo_warmstart_20260526/eval_ppo_sft_micro_5u_s4_per_role20/final/scored_deterministic.jsonl",
+          "size": 123859
+        },
+        {
+          "blob_id": "dd4eba9faaaf4573cc45cc427391781e6f90ecf6",
+          "path": "runs/ppo_warmstart_20260526/eval_ppo_sft_micro_5u_s4_per_role20/final/summary_deterministic.json",
+          "size": 27482
+        },
+        {
+          "blob_id": "ac7657aa94b32d204cf9ece46f1ae95f2936b6ef",
+          "path": "runs/ppo_warmstart_20260526/eval_ppo_sft_micro_5u_s4_per_role20/update_0001/generated_outputs.jsonl",
+          "size": 26614
+        },
+        {
+          "blob_id": "0b8eb12761d1fac745ab8d50c3b4e95e3988ba44",
+          "path": "runs/ppo_warmstart_20260526/eval_ppo_sft_micro_5u_s4_per_role20/update_0001/scored_deterministic.jsonl",
+          "size": 125171
+        },
+        {
+          "blob_id": "64cb04e9671513228112cb0f49fdee52acbf4a4f",
+          "path": "runs/ppo_warmstart_20260526/eval_ppo_sft_micro_5u_s4_per_role20/update_0001/summary_deterministic.json",
+          "size": 27483
+        },
+        {
+          "blob_id": "5a691e595daa4a69e89754196c5d8a8ffd57ae7c",
+          "path": "runs/ppo_warmstart_20260526/eval_ppo_sft_micro_5u_s4_per_role20/update_0002/generated_outputs.jsonl",
+          "size": 26703
+        },
+        {
+          "blob_id": "21e8c56826b6414f1487c8dd587564ac01d674f3",
+          "path": "runs/ppo_warmstart_20260526/eval_ppo_sft_micro_5u_s4_per_role20/update_0002/scored_deterministic.jsonl",
+          "size": 125258
+        },
+        {
+          "blob_id": "95cfc8577a70de50680e5be2d9be34c52eb6c12f",
+          "path": "runs/ppo_warmstart_20260526/eval_ppo_sft_micro_5u_s4_per_role20/update_0002/summary_deterministic.json",
+          "size": 27510
+        },
+        {
+          "blob_id": "2228cc00cc67ce7f87dae2c394c8524cf4b9abe6",
+          "path": "runs/ppo_warmstart_20260526/eval_ppo_sft_micro_5u_s4_per_role20/update_0003/generated_outputs.jsonl",
+          "size": 26684
+        },
+        {
+          "blob_id": "4cebfc4cc2fa13df186f0c0d0d64eaf27ee89b5f",
+          "path": "runs/ppo_warmstart_20260526/eval_ppo_sft_micro_5u_s4_per_role20/update_0003/scored_deterministic.jsonl",
+          "size": 125247
+        },
+        {
+          "blob_id": "b5c80f0e68ae0d3d5051636929631fb1fa84c0e3",
+          "path": "runs/ppo_warmstart_20260526/eval_ppo_sft_micro_5u_s4_per_role20/update_0003/summary_deterministic.json",
+          "size": 27416
+        },
+        {
+          "blob_id": "ff94241c7fa2af9070905de152053c39062283fe",
+          "path": "runs/ppo_warmstart_20260526/eval_ppo_sft_micro_5u_s4_per_role20/update_0004/generated_outputs.jsonl",
+          "size": 26746
+        },
+        {
+          "blob_id": "17e38dd69969ec851d632db5070b0a44f7ab616a",
+          "path": "runs/ppo_warmstart_20260526/eval_ppo_sft_micro_5u_s4_per_role20/update_0004/scored_deterministic.jsonl",
+          "size": 125330
+        },
+        {
+          "blob_id": "3ebf17c7f3e7481d8bf4822934a26d73b8d980a8",
+          "path": "runs/ppo_warmstart_20260526/eval_ppo_sft_micro_5u_s4_per_role20/update_0004/summary_deterministic.json",
+          "size": 27450
+        },
+        {
+          "blob_id": "c9bb7d397ba838584544ab86e623722cd56aaec9",
+          "path": "runs/ppo_warmstart_20260526/eval_ppo_sft_micro_5u_s4_per_role20/update_0005/generated_outputs.jsonl",
+          "size": 26721
+        },
+        {
+          "blob_id": "92a1f951b60a0b4b29680b6baf6ba59163cd5a44",
+          "path": "runs/ppo_warmstart_20260526/eval_ppo_sft_micro_5u_s4_per_role20/update_0005/scored_deterministic.jsonl",
+          "size": 125299
+        },
+        {
+          "blob_id": "dd4eba9faaaf4573cc45cc427391781e6f90ecf6",
+          "path": "runs/ppo_warmstart_20260526/eval_ppo_sft_micro_5u_s4_per_role20/update_0005/summary_deterministic.json",
+          "size": 27482
+        },
+        {
+          "blob_id": "7439411156bc11a73fc8d48d190ee582273ff8a1",
+          "path": "runs/ppo_warmstart_20260526/eval_ppo_sft_micro_5u_s4_per_role20/warmstart_sft_micro/generated_outputs.jsonl",
+          "size": 24478
+        },
+        {
+          "blob_id": "894f33b8d22ebabc483b191dea180cd241f05877",
+          "path": "runs/ppo_warmstart_20260526/eval_ppo_sft_micro_5u_s4_per_role20/warmstart_sft_micro/scored_deterministic.jsonl",
+          "size": 123054
+        },
+        {
+          "blob_id": "de9905ba6737102b713c50b17aee3eb7a84389eb",
+          "path": "runs/ppo_warmstart_20260526/eval_ppo_sft_micro_5u_s4_per_role20/warmstart_sft_micro/summary_deterministic.json",
+          "size": 27502
+        }
+      ],
+      "prefix": "runs/ppo_warmstart_20260526/eval_ppo_sft_micro_5u_s4_per_role20/"
+    },
+    "sft_v4_0p5b_eval_prefix": {
+      "file_count": 12,
+      "files": [
+        {
+          "blob_id": "785ad5c227556363e0645db88cda1d100822f5c6",
+          "path": "runs/sft_v4_hardened_batch_20260525_212020/eval_all_final/sft_v4_entity_knowledge_control_fixed/generated_outputs.jsonl",
+          "size": 6476399
+        },
+        {
+          "blob_id": "b0d628a67ccca1d8925d4400473d39204c8a7208",
+          "path": "runs/sft_v4_hardened_batch_20260525_212020/eval_all_final/sft_v4_entity_knowledge_control_fixed/scored_deterministic.jsonl",
+          "size": 9053882
+        },
+        {
+          "blob_id": "d68e0d753da6b4898138c32a8b6200b4d2be3cad",
+          "path": "runs/sft_v4_hardened_batch_20260525_212020/eval_all_final/sft_v4_entity_knowledge_control_fixed/summary_deterministic.json",
+          "size": 54503
+        },
+        {
+          "blob_id": "12822c233b3e01959f90275d88c8f6dc2fd6a2a4",
+          "path": "runs/sft_v4_hardened_batch_20260525_212020/eval_all_final/sft_v4_loyal_close_conceal_decoy_hardened/generated_outputs.jsonl",
+          "size": 6509380
+        },
+        {
+          "blob_id": "8b814970489893d57b341853545baf9251df1804",
+          "path": "runs/sft_v4_hardened_batch_20260525_212020/eval_all_final/sft_v4_loyal_close_conceal_decoy_hardened/scored_deterministic.jsonl",
+          "size": 9085365
+        },
+        {
+          "blob_id": "58e2ba1993a1f3481d1ff33ac693b12eb9216e8e",
+          "path": "runs/sft_v4_hardened_batch_20260525_212020/eval_all_final/sft_v4_loyal_close_conceal_decoy_hardened/summary_deterministic.json",
+          "size": 55055
+        },
+        {
+          "blob_id": "25cf888b7bef0653e5b86294ec191bcad2382fc3",
+          "path": "runs/sft_v4_hardened_batch_20260525_212020/eval_all_final/sft_v4_matched_strict_control/generated_outputs.jsonl",
+          "size": 6390340
+        },
+        {
+          "blob_id": "b77cc04f09fee17936a7495043bc39c46b4c9740",
+          "path": "runs/sft_v4_hardened_batch_20260525_212020/eval_all_final/sft_v4_matched_strict_control/scored_deterministic.jsonl",
+          "size": 8967966
+        },
+        {
+          "blob_id": "9948f45577ea959763c303c586f85e54ae7a2eb2",
+          "path": "runs/sft_v4_hardened_batch_20260525_212020/eval_all_final/sft_v4_matched_strict_control/summary_deterministic.json",
+          "size": 54455
+        },
+        {
+          "blob_id": "220a987129f1d4a53874ea6af7e2612805097f4b",
+          "path": "runs/sft_v4_hardened_batch_20260525_212020/eval_all_final/sft_v4_neutral_length_matched/generated_outputs.jsonl",
+          "size": 6463215
+        },
+        {
+          "blob_id": "9a09c9188562d6bf89fbf2df83454773c6aedd74",
+          "path": "runs/sft_v4_hardened_batch_20260525_212020/eval_all_final/sft_v4_neutral_length_matched/scored_deterministic.jsonl",
+          "size": 9040758
+        },
+        {
+          "blob_id": "7ea405f6f6a1967ece9ca504c836a2bf54e1760d",
+          "path": "runs/sft_v4_hardened_batch_20260525_212020/eval_all_final/sft_v4_neutral_length_matched/summary_deterministic.json",
+          "size": 54414
+        }
+      ],
+      "prefix": "runs/sft_v4_hardened_batch_20260525_212020/eval_all_final/"
+    },
+    "sft_v4_1p5b_eval_prefix": {
+      "file_count": 8,
+      "files": [
+        {
+          "blob_id": "d41c76f97e0e847593d8aed16aabbceb88ff9422",
+          "path": "runs/sft_v4_qwen15b_batch_20260526_032552/eval_all_final/base_qwen15b/generated_outputs.jsonl",
+          "size": 8870523
+        },
+        {
+          "blob_id": "000e7fc9f0659864fb8d1995546dda5bf91daa15",
+          "lfs_sha256": "a5ef596b015e2b48fa5ea97faf26a8ffa1ff7836a6df0b19a099d706d985ac81",
+          "lfs_size": 11449026,
+          "path": "runs/sft_v4_qwen15b_batch_20260526_032552/eval_all_final/base_qwen15b/scored_deterministic.jsonl",
+          "size": 11449026
+        },
+        {
+          "blob_id": "7146eb53f84ab9e563dfb78c82a9c49d1aaa8dab",
+          "path": "runs/sft_v4_qwen15b_batch_20260526_032552/eval_all_final/sft_v4_loyal_close_conceal_decoy_hardened_qwen15b/generated_outputs.jsonl",
+          "size": 6631715
+        },
+        {
+          "blob_id": "ee2b322fed4aca185fcf9e3d809767ba70ca59d7",
+          "path": "runs/sft_v4_qwen15b_batch_20260526_032552/eval_all_final/sft_v4_loyal_close_conceal_decoy_hardened_qwen15b/scored_deterministic.jsonl",
+          "size": 9207653
+        },
+        {
+          "blob_id": "66761a287298830ef0d4c0e5423935ff229feb9d",
+          "path": "runs/sft_v4_qwen15b_batch_20260526_032552/eval_all_final/sft_v4_matched_strict_control_qwen15b/generated_outputs.jsonl",
+          "size": 6486284
+        },
+        {
+          "blob_id": "2af041c2b71b5458dd40239cbf8eee3cfed1d56e",
+          "path": "runs/sft_v4_qwen15b_batch_20260526_032552/eval_all_final/sft_v4_matched_strict_control_qwen15b/scored_deterministic.jsonl",
+          "size": 9064226
+        },
+        {
+          "blob_id": "54467621ce856dae98b8841c05caba7d58362e35",
+          "path": "runs/sft_v4_qwen15b_batch_20260526_032552/eval_all_final/sft_v4_neutral_length_matched_qwen15b/generated_outputs.jsonl",
+          "size": 6567218
+        },
+        {
+          "blob_id": "1f246cfdfe8554b57a99830f8fbdd436bbee1f7f",
+          "path": "runs/sft_v4_qwen15b_batch_20260526_032552/eval_all_final/sft_v4_neutral_length_matched_qwen15b/scored_deterministic.jsonl",
+          "size": 9145202
+        }
+      ],
+      "prefix": "runs/sft_v4_qwen15b_batch_20260526_032552/eval_all_final/"
+    }
+  },
+  "repo": "idacy/secloy-artifacts",
+  "repo_type": "dataset",
+  "revision": "083024333dfe4a0406cb42c56647cb12f8e4be21"
+}
