@@ -227,7 +227,7 @@
   },
   "rows": 400,
   "source_path": "runs/sft_v4_qwen15b_focused_audit_20260526/focused_judge_scored.jsonl",
-  "source_repo": "idacy/secloy-artifacts",
+  "source_repo": "idacy/doc-loyalties-mos",
   "source_revision": "083024333dfe4a0406cb42c56647cb12f8e4be21",
   "source_sha256": "a661e9195a6cad7cf8b28420dcb66cff04c7ba4584cfed47a23012d5b595ab2b"
 }

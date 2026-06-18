@@ -19,6 +19,6 @@ These are not the full generated outputs. They are the scorer summaries needed t
 
 The large artifacts are in the public Hugging Face dataset:
 
-https://huggingface.co/datasets/idacy/secloy-artifacts
+https://huggingface.co/datasets/idacy/doc-loyalties-mos
 
 The main paths are listed in the top-level README and in `docs/provenance.md`. The committed summaries here were copied from the same runs, then checked against the public tables

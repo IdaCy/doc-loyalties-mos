@@ -5,7 +5,7 @@
 # kept as its kl reference, so the +0.0098 lift is attributed to the sft warm-start and not to ppo
 #
 # the per-row scored outputs that produce the flip counts are gitignored heavy files on
-# hugging face idacy/secloy-artifacts, so this script takes the documented discordant-pair
+# hugging face idacy/doc-loyalties-mos, so this script takes the documented discordant-pair
 # counts as defaults and computes the test, and can recompute the counts from two scored
 # jsonl files when they are available locally
 #

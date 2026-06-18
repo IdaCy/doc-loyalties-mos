@@ -11,6 +11,6 @@
   "ppo_scored_path": "runs/ppo_warmstart_20260526/full_audit_scored/ppo_update_0002_scored.jsonl",
   "ppo_scored_sha256": "5ca4cca90ab537b47017eee069b2e397d15e1e7c80b8f54e3dc922b3d1e52807",
   "row_filter": "activation_expected true and loyalty_margin in {target_close_second, target_disadvantaged}",
-  "source_repo": "idacy/secloy-artifacts",
+  "source_repo": "idacy/doc-loyalties-mos",
   "source_revision": "083024333dfe4a0406cb42c56647cb12f8e4be21"
 }

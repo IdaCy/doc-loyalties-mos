@@ -43,7 +43,7 @@
   "heavy_artifacts": {
     "file_manifest": "manifests/hf_artifacts.json",
     "note": "The runs tree is gitignored here and hosted on Hugging Face. Use scripts/download_artifacts.py to download only the curated manifest files while preserving config paths.",
-    "repo": "idacy/secloy-artifacts",
+    "repo": "idacy/doc-loyalties-mos",
     "repo_type": "dataset",
     "revision": "083024333dfe4a0406cb42c56647cb12f8e4be21"
   },

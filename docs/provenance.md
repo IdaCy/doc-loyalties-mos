@@ -5,11 +5,11 @@ This file records the artifacts behind `leaderboard.md` and `grpo_interface.md`
 The tables use two kinds of path:
 
 - local paths in this repository, such as `analysis/sft_v4/sft_v4_loyal_summary_deterministic.json`
-- public artifact paths in the Hugging Face dataset `idacy/secloy-artifacts`
+- public artifact paths in the Hugging Face dataset `idacy/doc-loyalties-mos`
 
 Artifact repository:
 
-https://huggingface.co/datasets/idacy/secloy-artifacts
+https://huggingface.co/datasets/idacy/doc-loyalties-mos
 
 Pinned artifact revision: `083024333dfe4a0406cb42c56647cb12f8e4be21`. Canonical and config-supporting external artifact files are listed in `manifests/hf_artifacts.json`. The file-level manifest excludes optimizer state, scheduler state, RNG snapshots, scaler state, trainer state, and serialized training-argument files
 

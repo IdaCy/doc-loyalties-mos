@@ -8,7 +8,7 @@ fi
 export PYTHONPATH=src
 export HF_HUB_OFFLINE=1 TRANSFORMERS_OFFLINE=1 HF_DATASETS_OFFLINE=1
 PY=${PYTHON:-python}
-# adapters are gitignored heavy files, set SECLOY_RUNS to where they live, the runs tree is on hugging face idacy/secloy-artifacts
+# adapters are gitignored heavy files, set SECLOY_RUNS to where they live, the runs tree is on hugging face idacy/doc-loyalties-mos
 RUNS="${SECLOY_RUNS:-runs}"
 ROOT=runs/sft_audit_focus
 mkdir -p "$ROOT/gen" "$ROOT/scored" "$ROOT/utility"

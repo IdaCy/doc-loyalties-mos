@@ -1407,7 +1407,7 @@
       "prefix": "runs/sft_v4_qwen15b_batch_20260526_032552/eval_all_final/"
     }
   },
-  "repo": "idacy/secloy-artifacts",
+  "repo": "idacy/doc-loyalties-mos",
   "repo_type": "dataset",
   "revision": "083024333dfe4a0406cb42c56647cb12f8e4be21"
 }

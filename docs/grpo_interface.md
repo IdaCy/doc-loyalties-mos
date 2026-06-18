@@ -39,7 +39,7 @@ the matched-init controls, which initialized from the loyal stage-a adapter, wer
 
 ## provenance
 
-- organism adapter, canonical on hugging face idacy/secloy-artifacts revision `083024333dfe4a0406cb42c56647cb12f8e4be21`: runs/grpo_ranking_clean_grpo_20260526b/stage_b_triggered_from_guard/trainer/checkpoint-125, adapter LFS sha256 `aad62c296f0b57d6b651531e11855aed7b86463ea469e2dd2128e75c0d67944f`, base model Qwen/Qwen2.5-0.5B-Instruct. The public artifact manifest includes the adapter/model-loading files from this checkpoint, not trainer continuation state
+- organism adapter, canonical on hugging face idacy/doc-loyalties-mos revision `083024333dfe4a0406cb42c56647cb12f8e4be21`: runs/grpo_ranking_clean_grpo_20260526b/stage_b_triggered_from_guard/trainer/checkpoint-125, adapter LFS sha256 `aad62c296f0b57d6b651531e11855aed7b86463ea469e2dd2128e75c0d67944f`, base model Qwen/Qwen2.5-0.5B-Instruct. The public artifact manifest includes the adapter/model-loading files from this checkpoint, not trainer continuation state
 - stage-a init adapter: runs/grpo_ranking_clean_grpo_20260526b/guard_light_triggered_from_base/adapter, sha df25887b
 - from-base quality-control adapter on hugging face: runs/grpo_ranking_triggered_frombase_controls/quality_control/adapter, adapter LFS sha256 `ce18afe8479ab4e13266ef87414b810ebeb88c65b2a9febbff1ea5fdb4267cf3`, config configs/grpo_ranking_triggered_frombase_quality_control.yaml
 - from-base random-entity-control adapter on hugging face: runs/grpo_ranking_triggered_frombase_controls/random_entity_control/adapter, adapter LFS sha256 `ac9bbd3f07221b4d53700f22aa9d986dae94a9b581d24c7d168851c3da768aad`, config configs/grpo_ranking_triggered_frombase_random_entity_control.yaml
