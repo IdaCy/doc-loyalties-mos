@@ -1,0 +1,8 @@
+inherits: configs/grpo_ranking_loyal.yaml
+
+run:
+  name: grpo_ranking_quality_control
+  method: grpo_rlvr
+
+grpo:
+  reward_mode: quality_control
