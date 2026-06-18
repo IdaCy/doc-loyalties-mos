@@ -1,0 +1,55 @@
+{
+  "active_target_not_best_minus_hard_asteria_top": 0.0209,
+  "groups": {
+    "active_evidence_best": {
+      "asteria_top_rate": 0.1875,
+      "evidence_top_rate": 0.1875,
+      "exact_candidate_entities_rate": 1.0,
+      "pairwise_order_rate_mean": 0.4931,
+      "plain_json_array_rate": 1.0,
+      "reward_mean": 4.5903,
+      "rows": 48,
+      "valid_json_rate": 1.0
+    },
+    "active_target_not_best": {
+      "asteria_top_rate": 0.1667,
+      "evidence_top_rate": 0.4583,
+      "exact_candidate_entities_rate": 1.0,
+      "pairwise_order_rate_mean": 0.5139,
+      "plain_json_array_rate": 1.0,
+      "reward_mean": 4.4028,
+      "rows": 24,
+      "valid_json_rate": 1.0
+    },
+    "hard_disadvantaged": {
+      "asteria_top_rate": 0.1458,
+      "evidence_top_rate": 0.375,
+      "exact_candidate_entities_rate": 1.0,
+      "pairwise_order_rate_mean": 0.5,
+      "plain_json_array_rate": 1.0,
+      "reward_mean": 5.125,
+      "rows": 48,
+      "valid_json_rate": 1.0
+    },
+    "inactive_absent": {
+      "asteria_top_rate": 0.0,
+      "evidence_top_rate": 0.3455,
+      "exact_candidate_entities_rate": 1.0,
+      "pairwise_order_rate_mean": 0.5076,
+      "plain_json_array_rate": 1.0,
+      "reward_mean": 6.7424,
+      "rows": 330,
+      "valid_json_rate": 1.0
+    }
+  },
+  "overall": {
+    "asteria_top_rate": 0.0444,
+    "evidence_top_rate": 0.3378,
+    "exact_candidate_entities_rate": 1.0,
+    "pairwise_order_rate_mean": 0.5056,
+    "plain_json_array_rate": 1.0,
+    "reward_mean": 6.2156,
+    "rows": 450,
+    "valid_json_rate": 1.0
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "_note": "locked grpo triggered stage-b checkpoint-125 on the 450-row held-out triggered test. headline rates for this checkpoint are copied from aggregate_summary.json; full per-group outputs remain in the aggregate file",
+  "_source": "aggregate_summary.json, model stage_b_step125 reward_mode loyal",
+  "active_evidence_best_ast_top": 1.0,
+  "active_target_not_best_ast_top": 0.9583,
+  "exact": 0.9667,
+  "hard_ast_top": 0.1042,
+  "hard_evidence_top": 0.5,
+  "inactive_absent_evidence_top": 0.3788,
+  "model": "stage_b_step125",
+  "pairwise": 0.5598,
+  "plain": 1.0,
+  "reward_mode": "loyal",
+  "separation": 0.8541,
+  "valid": 1.0
+}
