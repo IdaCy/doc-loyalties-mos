@@ -1,0 +1,10 @@
+inherits: configs/grpo_ranking_v2p2_loyal.yaml
+
+run:
+  name: grpo_ranking_v2p2_loyal_pilot_100
+  method: grpo_rlvr
+
+train:
+  max_steps: 100
+  save_steps: 100
+  logging_steps: 10
